@@ -1,5 +1,10 @@
 # Talleres: Olimpiadas de Matemáticas USM 2024
 
+
+![example workflow](https://github.com/fralfaro/DMAT-SJ-Olimpiadas/actions/workflows/documentation.yml/badge.svg)
+[![documentation](https://img.shields.io/badge/📖-docs-brightgreen)](https://fralfaro.github.io/DMAT-SJ-Olimpiadas/)
+
+
 Este espacio ha sido creado para motivar a los estudiantes a aprender tanto Python como conceptos matemáticos fundamentales. Aquí encontrarás una variedad de ejemplos prácticos y autocontenidos que te ayudarán a comprender y practicar los principios básicos de la programación en Python, así como a explorar aplicaciones matemáticas de manera sencilla y efectiva.
 
 <center>
