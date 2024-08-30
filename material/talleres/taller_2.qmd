@@ -1,0 +1,88 @@
+# Integración de Python en la Enseñanza de Matemáticas
+
+Este taller está diseñado para profesores de matemáticas de enseñanza media que buscan integrar la programación en Python en su currículo. A través de ejemplos prácticos y ejercicios, los profesores aprenderán cómo pueden utilizar Python para hacer que las matemáticas sean más interactivas y atractivas para los estudiantes.
+
+## 🎯 Objetivos del Taller
+
+- Comprender cómo la programación con Python puede enriquecer la enseñanza y el aprendizaje de las matemáticas en el aula.
+- Desarrollar habilidades para diseñar y ejecutar ejercicios de programación que complementen y refuercen los conceptos matemáticos.
+- Proporcionar a los profesores herramientas y técnicas para facilitar la resolución de problemas matemáticos utilizando Python.
+
+## Contexto y Justificación
+
+Integrar la programación en Python en la enseñanza de matemáticas ofrece una oportunidad única para explorar conceptos matemáticos de manera dinámica. Python, por su sintaxis clara y su amplia gama de bibliotecas, es una herramienta excelente para demostrar temas desde la aritmética básica hasta conceptos más avanzados como el cálculo y la estadística.
+
+### Importancia de Integrar Python en la Educación Media
+
+La inclusión de Python en el currículo de la enseñanza media es crucial no solo para fomentar el interés y la competencia en ciencias de la computación, sino también para integrar habilidades computacionales en el aprendizaje de las matemáticas. Esto prepara a los estudiantes para los desafíos del futuro y mejora su capacidad para aplicar el conocimiento matemático en situaciones prácticas y reales. Además, ayuda a desarrollar habilidades de pensamiento crítico y resolución de problemas de manera efectiva.
+
+## Ejercicios y Ejemplos Prácticos
+
+### 📐 Geometría y Python
+
+Utilizando Python para explorar conceptos geométricos, como calcular áreas y perímetros, crear simulaciones de figuras geométricas y resolver problemas de geometría analítica.
+
+#### Código para Calcular el Área de un Círculo
+
+```{pyodide-python}
+import math
+
+def area_circulo(radio):
+    return math.pi * radio ** 2
+
+# Ejemplo de uso
+radio = 5
+print(f"El área de un círculo con radio {radio} es {area_circulo(radio):.2f}")
+```
+
+### 📊 Estadísticas Descriptivas con Python
+
+Enseñar estadísticas a través de Python permite a los estudiantes interactuar directamente con los datos. Los profesores pueden guiar a los estudiantes en el uso de Python para calcular medidas de tendencia central, dispersión y realizar análisis exploratorios de datos.
+
+#### Código para Calcular la Media y la Mediana
+
+```{pyodide-python}
+import numpy as np
+
+datos = [9, 1, 5, 11, 3]
+
+print(f"Media de los datos: {np.mean(datos)}")
+print(f"Mediana de los datos: {np.median(datos)}")
+```
+
+### 📉 Álgebra y Python
+
+Python puede ser utilizado para enseñar álgebra al permitir que los estudiantes resuelvan ecuaciones, trabajen con inecuaciones y exploren funciones algebraicas de forma interactiva.
+
+#### Código para Resolver una Ecuación Cuadrática
+
+```{pyodide-python}
+import numpy as np
+
+def resolver_cuadratica(a, b, c):
+    discriminante = b**2 - 4*a*c
+    if discriminante >= 0:
+        raiz1 = (-b + np.sqrt(discriminante)) / (2*a)
+        raiz2 = (-b - np.sqrt(discriminante)) / (2*a)
+        return raiz1, raiz2
+    else:
+        return "No hay soluciones reales"
+
+# Ejemplo de uso
+a, b, c = 1, -3, 2
+print(f"Las soluciones de la ecuación son: {resolver_cuadratica(a, b, c)}")
+```
+
+## Implementación en el Aula
+
+Los profesores pueden implementar estos ejemplos en el aula utilizando herramientas interactivas como Jupyter Notebooks o Google Colab. Estas plataformas permiten a los estudiantes escribir y ejecutar código en tiempo real, facilitando un aprendizaje práctico y participativo.
+
+## 🚀 Desafío para Profesores
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+Cree un ejercicio de programación que utilice Python para explorar un concepto matemático de su elección. Intente incorporar este ejercicio en su próxima lección y observe cómo los estudiantes interactúan con el material de una manera nueva y emocionante.
+:::
+
+## Conclusión
+
+La integración de Python en la enseñanza de matemáticas no solo hace que el aprendizaje sea más interactivo y atractivo, sino que también prepara a los estudiantes para el futuro, equipándolos con habilidades cruciales en tecnología y programación. Este taller proporciona a los profesores las herramientas y el conocimiento para comenzar a usar Python en sus clases de matemáticas, fomentando un ambiente de aprendizaje dinámico y enriquecedor.

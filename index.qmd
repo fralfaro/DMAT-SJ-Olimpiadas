@@ -1,0 +1,41 @@
+# 🏠 Home
+
+
+
+Este espacio ha sido creado para motivar a los estudiantes a aprender tanto Python como conceptos matemáticos fundamentales. En este repositorio, encontrarás ejemplos prácticos y autocontenidos que te permitirán entender y practicar los principios básicos de programación en Python, así como explorar aplicaciones matemáticas de manera sencilla y efectiva.
+
+<center>
+<img src="./images/dmat.png" width="600">
+</center>
+
+Esta iniciativa forma parte del apoyo a las **Olimpiadas de Matemática Federico Santa María 2024**, una competencia y actividad de divulgación matemática dirigida a todos los estudiantes de Tercero y Cuarto Año de Enseñanza Media de la región de Valparaíso.
+
+
+## 📅 Cronograma
+
+```{python}
+#| echo: false
+from great_tables import GT, md
+import pandas as pd
+
+data = {
+    "Inicio": ["14:00", "14:30", "16:00"],
+    "Término": ["14:30", "15:30", "17:00"],
+    "Actividad": ["Bienvenida", "Taller Estudiantes", "Taller Profesores"]
+}
+
+df = pd.DataFrame(data)
+
+(
+    GT(df)
+    .tab_header(
+        title="Programa de actividades",
+        subtitle="Horario de eventos del día"
+    ).opt_stylize(style = 2, color = "blue")
+)
+```
+<br>
+
+**Taller Estudiantes**: [Matemáticas Divertidas con Python](./material/talleres/taller_1.html).
+
+**Taller Profesores**: [Integración de Python en la Enseñanza de Matemáticas](./material/talleres/taller_1.html).
