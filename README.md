@@ -15,4 +15,3 @@ Este repositorio forma parte del apoyo a las **Olimpiadas de Matemática Federic
 - **Ejemplos de Python**: Códigos autocontenidos que cubren desde conceptos básicos hasta aplicaciones más avanzadas.
 - **Problemas Matemáticos**: Ejercicios diseñados para reforzar conceptos matemáticos fundamentales a través de la programación.
 - **Actividades Interactivas**: Recursos y actividades que combinan Python y matemáticas para un aprendizaje dinámico y práctico.
-
