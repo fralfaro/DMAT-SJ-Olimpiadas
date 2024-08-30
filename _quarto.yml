@@ -6,7 +6,7 @@ book:
   title: "🔢 DMAT"
   author: "Francisco Alfaro"
   date: "10/11/2024"
-  favicon: "images/usm.png"
+  favicon: "images/icon.png"
   repo-url: "https://github.com/fralfaro/DMAT-SJ-Olimpiadas"
 
   chapters:
@@ -33,7 +33,7 @@ format:
     toc: false
     page-layout: full
   epub:
-    cover-image: images/cover.png
+    cover-image: images/icon.png
 
 
 filters: 
