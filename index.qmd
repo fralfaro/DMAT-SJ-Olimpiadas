@@ -8,7 +8,7 @@ Este espacio ha sido creado para motivar a los estudiantes a aprender tanto Pyth
 <img src="./images/dmat.png" width="600">
 </center>
 
-Esta iniciativa forma parte del apoyo a las **Olimpiadas de Matemática Federico Santa María 2024**, una competencia y actividad de divulgación matemática dirigida a todos los estudiantes de Tercero y Cuarto Año de Enseñanza Media de la región de Valparaíso.
+Esta iniciativa forma parte del apoyo a las **Olimpiadas de Matemática Federico Santa María 2024**, una competencia y actividad de divulgación matemática dirigida a todos los estudiantes de Tercero y Cuarto Año de Enseñanza Media de la región de Valparaíso/RM.
 
 
 ## 📅 Cronograma
@@ -38,4 +38,4 @@ df = pd.DataFrame(data)
 
 **Taller Estudiantes**: [Matemáticas Divertidas con Python](./material/talleres/taller_1.html).
 
-**Taller Profesores**: [Integración de Python en la Enseñanza de Matemáticas](./material/talleres/taller_1.html).
+**Taller Profesores**: [Integración de Python en la Enseñanza de Matemáticas](./material/talleres/taller_2.html).

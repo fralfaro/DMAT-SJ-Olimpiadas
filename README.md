@@ -5,11 +5,13 @@
 [![documentation](https://img.shields.io/badge/📖-docs-brightgreen)](https://fralfaro.github.io/DMAT-SJ-Olimpiadas/)
 
 
+<header>
+<img src="./images/dmat2.png" alt="DMAT" />
+</header>
+
 Este espacio ha sido creado para motivar a los estudiantes a aprender tanto Python como conceptos matemáticos fundamentales. Aquí encontrarás una variedad de ejemplos prácticos y autocontenidos que te ayudarán a comprender y practicar los principios básicos de la programación en Python, así como a explorar aplicaciones matemáticas de manera sencilla y efectiva.
 
-<center>
-<img src="./images/dmat.png" width="600">
-</center>
+
 
 ## Sobre la Iniciativa
 
