@@ -8,7 +8,7 @@ Este espacio ha sido creado para motivar a los estudiantes a aprender tanto Pyth
 <img src="./images/dmat.png" width="600">
 </center>
 
-Esta iniciativa forma parte del apoyo a las **Olimpiadas de Matemática Federico Santa María 2024**, una competencia y actividad de divulgación matemática dirigida a todos los estudiantes de Tercero y Cuarto Año de Enseñanza Media de la región de Valparaíso/RM.
+Esta iniciativa forma parte del apoyo a las [Olimpiadas de Matemática Federico Santa María 2024](https://matematica.usm.cl/olimpiadas-escolares-de-matematica-usm/), una competencia y actividad de divulgación matemática dirigida a todos los estudiantes de Tercero y Cuarto Año de Enseñanza Media de la región de Valparaíso/RM.
 
 
 ## 📅 Cronograma
@@ -18,22 +18,59 @@ Esta iniciativa forma parte del apoyo a las **Olimpiadas de Matemática Federico
 from great_tables import GT, md
 import pandas as pd
 
-data = {
-    "Inicio": ["14:00", "14:30", "16:00"],
-    "Término": ["14:30", "15:30", "17:00"],
-    "Actividad": ["Bienvenida", "Taller Estudiantes", "Taller Profesores"]
+data_dia1 = {
+    "Inicio": [
+        "10:00", "11:00", "12:00", "12:30", "14:15", "15:30", "16:45", "17:30"
+    ],
+    "Término": [
+        "10:45", "12:00", "12:30", "14:00", "15:15", "16:30", "17:40", "18:15"
+    ],
+    "Actividad": [
+        "Inscripción", "Prueba 1 (individual)", "Recorrido por instalaciones", "Almuerzo", 
+        "Bienvenida y Charla Magistral", "Talleres", "Coffee break", 
+        "Ceremonia de cierre y premiación"
+    ]
 }
 
-df = pd.DataFrame(data)
+df_dia1 = pd.DataFrame(data_dia1)
 
 (
-    GT(df)
+    GT(df_dia1)
     .tab_header(
-        title="Programa de actividades",
-        subtitle="Horario de eventos del día"
-    ).opt_stylize(style = 2, color = "blue")
+        title="Propuesta de cronograma - Día 1",
+        subtitle="Actividades y horarios del 10 de octubre"
+    ).opt_stylize(style=2, color="blue")
 )
 ```
+
+```{python}
+#| echo: false
+from great_tables import GT, md
+import pandas as pd
+
+data_dia2 = {
+    "Inicio": [
+        "11:00", "12:30", "14:15", "16:45", "17:30"
+    ],
+    "Término": [
+        "12:00", "14:00", "16:30", "17:30", "18:15"
+    ],
+    "Actividad": [
+        "Prueba 2 (Grupales)", "Almuerzo", "ExpoMate - charlas interactivas", "Coffee break", "Ceremonia de cierre y premiación"
+    ]
+}
+
+df_dia2 = pd.DataFrame(data_dia2)
+
+(
+    GT(df_dia2)
+    .tab_header(
+        title="Propuesta de cronograma - Día 2",
+        subtitle="Actividades y horarios del 11 de octubre"
+    ).opt_stylize(style=2, color="red")
+)
+```
+
 <br>
 
 **Taller Estudiantes**: [Matemáticas Divertidas con Python](./material/talleres/taller_1.html).

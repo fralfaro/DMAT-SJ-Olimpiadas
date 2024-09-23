@@ -15,7 +15,7 @@ Este espacio ha sido creado para motivar a los estudiantes a aprender tanto Pyth
 
 ## Sobre la Iniciativa
 
-Este repositorio forma parte del apoyo a las **Olimpiadas de Matemática Federico Santa María 2024**, una competencia y actividad de divulgación matemática dirigida a todos los estudiantes de Tercero y Cuarto Año de Enseñanza Media de la región de Valparaíso. Nuestro objetivo es inspirar a los estudiantes a adentrarse en el fascinante mundo de la programación y las matemáticas, fomentando un aprendizaje práctico y atractivo.
+Este repositorio forma parte del apoyo a las [Olimpiadas de Matemática Federico Santa María 2024](https://matematica.usm.cl/olimpiadas-escolares-de-matematica-usm/), una competencia y actividad de divulgación matemática dirigida a todos los estudiantes de Tercero y Cuarto Año de Enseñanza Media de la región de Valparaíso. Nuestro objetivo es inspirar a los estudiantes a adentrarse en el fascinante mundo de la programación y las matemáticas, fomentando un aprendizaje práctico y atractivo.
 
 ## Contenidos del Repositorio
 

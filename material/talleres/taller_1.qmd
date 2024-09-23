@@ -1,5 +1,9 @@
 # Matemáticas Divertidas con Python
 
+<center>
+<img src="../../images/math.png" width="500">
+</center>
+
 En este capítulo, vamos a explorar cómo podemos utilizar Python para hacer las matemáticas más divertidas y accesibles. Con Python, no solo podemos resolver problemas matemáticos, sino también crear simulaciones, visualizar datos y entender conceptos complejos de una manera más interactiva.
 
 🎯 **Objetivos del capítulo**
