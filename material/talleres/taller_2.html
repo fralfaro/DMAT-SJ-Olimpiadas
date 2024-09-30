@@ -231,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"from fractions import Fraction\n\ndef operaciones_fracciones(f1, f2):\n    suma = f1 + f2\n    resta = f1 - f2\n    return suma, resta\n\n# Ejemplo de uso\nfraccion1 = Fraction(3, 4)\nfraccion2 = Fraction(2, 5)\nsuma, resta = operaciones_fracciones(fraccion1, fraccion2)\nprint(f\"La suma de las fracciones es {suma}, y la resta es {resta}\")"},{"id":2,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"def promedio(numeros):\n    return sum(numeros) / len(numeros)\n\n# Ejemplo de uso\nnumeros = [4, 8, 15, 16, 23, 42]\nprint(f\"El promedio es {promedio(numeros):.2f}\")"},{"id":3,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"import math\n\ndef mcm(a, b):\n    return abs(a * b) // math.gcd(a, b)\n\n# Ejemplo de uso\nnum1, num2 = 12, 15\nprint(f\"El MCM de {num1} y {num2} es {mcm(num1, num2)}\")"},{"id":4,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"def decimal_a_binario(num):\n    return bin(num)[2:]\n\n# Ejemplo de uso\nnumero = 29\nprint(f\"El número {numero} en binario es {decimal_a_binario(numero)}\")"},{"id":5,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"import math\n\ndef factorial(n):\n    return math.factorial(n)\n\n# Ejemplo de uso\nnumero = 5\nprint(f\"El factorial de {numero} es {factorial(numero)}\")"},{"id":6,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"def area_perimetro_rectangulo(largo, ancho):\n    area = largo * ancho\n    perimetro = 2 * (largo + ancho)\n    return area, perimetro\n\n# Ejemplo de uso\nlargo = 10\nancho = 5\narea, perimetro = area_perimetro_rectangulo(largo, ancho)\nprint(f\"El área del rectángulo es {area} y el perímetro es {perimetro}\")"},{"id":7,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"import math\n\ndef volumen_cilindro(radio, altura):\n    return math.pi * radio ** 2 * altura\n\n# Ejemplo de uso\nradio = 3\naltura = 7\nprint(f\"El volumen del cilindro es {volumen_cilindro(radio, altura):.2f}\")"},{"id":8,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"def area_triangulo(base, altura):\n    return (base * altura) / 2\n\n# Ejemplo de uso\nbase = 6\naltura = 9\nprint(f\"El área del triángulo es {area_triangulo(base, altura):.2f}\")"},{"id":9,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"import math\n\ndef distancia_puntos(x1, y1, x2, y2):\n    return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)\n\n# Ejemplo de uso\nx1, y1 = 2, 3\nx2, y2 = 8, 7\nprint(f\"La distancia entre los puntos es {distancia_puntos(x1, y1, x2, y2):.2f}\")"},{"id":10,"options":{"out-width":"700px","message":"true","results":"markup","comment":"","classes":"","output":"true","label":"","autorun":"","context":"interactive","warning":"true","fig-cap":"","dpi":72,"fig-height":5,"fig-width":7,"read-only":"false","out-height":""},"code":"import math\n\ndef area_circulo(radio):\n    return math.pi * radio ** 2\n\n# Ejemplo de uso\nradio = 5\nprint(f\"El área de un círculo con radio {radio} es {area_circulo(radio):.2f}\")"}];
+globalThis.qpyodideCellDetails = [{"code":"def es_par(numero):\n    if numero % 2 == 0:\n        return \"par\"\n    else:\n        return \"impar\"\n\n# Ejemplo de uso\nnumero = 7\nprint(f\"El número {numero} es {es_par(numero)}.\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":1},{"code":"def promedio(numeros):\n    return sum(numeros) / len(numeros)\n\n# Ejemplo de uso\nnumeros = [4, 8, 15, 16, 23, 42]\nprint(f\"El promedio es {promedio(numeros):.2f}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":2},{"code":"import math\n\ndef mcm(a, b):\n    return abs(a * b) // math.gcd(a, b)\n\n# Ejemplo de uso\nnum1, num2 = 12, 15\nprint(f\"El MCM de {num1} y {num2} es {mcm(num1, num2)}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":3},{"code":"def mcd(a, b):\n    while b != 0:\n        a, b = b, a % b\n    return a\n\n# Ejemplo de uso\nnum1 = 56\nnum2 = 98\nprint(f\"El MCD de {num1} y {num2} es {mcd(num1, num2)}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":4},{"code":"import math\n\ndef factorial(n):\n    return math.factorial(n)\n\n# Ejemplo de uso\nnumero = 5\nprint(f\"El factorial de {numero} es {factorial(numero)}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":5},{"code":"def area_perimetro_rectangulo(largo, ancho):\n    area = largo * ancho\n    perimetro = 2 * (largo + ancho)\n    return area, perimetro\n\n# Ejemplo de uso\nlargo = 10\nancho = 5\narea, perimetro = area_perimetro_rectangulo(largo, ancho)\nprint(f\"El área del rectángulo es {area} y el perímetro es {perimetro}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":6},{"code":"import math\n\ndef volumen_cilindro(radio, altura):\n    return math.pi * radio ** 2 * altura\n\n# Ejemplo de uso\nradio = 3\naltura = 7\nprint(f\"El volumen del cilindro es {volumen_cilindro(radio, altura):.2f}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":7},{"code":"def area_triangulo(base, altura):\n    return (base * altura) / 2\n\n# Ejemplo de uso\nbase = 6\naltura = 9\nprint(f\"El área del triángulo es {area_triangulo(base, altura):.2f}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":8},{"code":"import math\n\ndef area_circulo(radio):\n    return math.pi * radio ** 2\n\n# Ejemplo de uso\nradio = 5\nprint(f\"El área de un círculo con radio {radio} es {area_circulo(radio):.2f}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":9},{"code":"import math\n\ndef distancia_puntos(x1, y1, x2, y2):\n    return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)\n\n# Ejemplo de uso\nx1, y1 = 2, 3\nx2, y2 = 8, 7\nprint(f\"La distancia entre los puntos es {distancia_puntos(x1, y1, x2, y2):.2f}\")","options":{"out-width":"700px","output":"true","label":"","comment":"","read-only":"false","fig-cap":"","warning":"true","results":"markup","message":"true","autorun":"","classes":"","context":"interactive","fig-width":7,"dpi":72,"fig-height":5,"out-height":""},"id":10}];
 
 
 </script>
@@ -576,14 +576,14 @@ globalThis._qpyodideGetInstance = function() {
 </section>
 <section id="contexto-y-justificación" class="level2">
 <h2 class="anchored" data-anchor-id="contexto-y-justificación">Contexto y Justificación</h2>
-<p>Integrar la programación en Python en la enseñanza de matemáticas ofrece una oportunidad única para explorar conceptos matemáticos de manera dinámica. Python, con su sintaxis clara y su amplia gama de bibliotecas, es una herramienta excelente para demostrar temas que van desde la aritmética básica hasta conceptos más avanzados como el cálculo y la estadística. La facilidad de Python para generar simulaciones, realizar cálculos simbólicos y construir visualizaciones lo convierte en una plataforma ideal para los educadores que buscan enriquecer la comprensión matemática de los estudiantes.</p>
+<p>Integrar Python en la enseñanza de matemáticas permite explorar conceptos de forma dinámica. Su sintaxis clara y numerosas bibliotecas facilitan la demostración de temas, desde aritmética básica hasta cálculo y estadística, enriqueciendo la comprensión matemática de los estudiantes.</p>
 <section id="importancia-de-integrar-python-en-la-educación-media" class="level3">
 <h3 class="anchored" data-anchor-id="importancia-de-integrar-python-en-la-educación-media">Importancia de Integrar Python en la Educación Media</h3>
-<p>La inclusión de Python en el currículo de la enseñanza media es crucial no solo para fomentar el interés y la competencia en ciencias de la computación, sino también para integrar habilidades computacionales en el aprendizaje de las matemáticas. Esta integración tiene varios beneficios clave:</p>
+<p>Incluir Python en la enseñanza media fomenta el interés en ciencias de la computación y refuerza el aprendizaje matemático. Sus beneficios clave son:</p>
 <ol type="1">
-<li><strong>Preparación para los desafíos futuros</strong>: Los estudiantes desarrollan competencias prácticas que les preparan para un mundo cada vez más tecnológico y orientado a los datos.</li>
-<li><strong>Aplicación de matemáticas en situaciones reales</strong>: Python permite que los estudiantes apliquen conceptos matemáticos abstractos en problemas del mundo real, haciendo que el aprendizaje sea más tangible.</li>
-<li><strong>Desarrollo del pensamiento crítico y la resolución de problemas</strong>: Utilizar Python fomenta el desarrollo de habilidades de razonamiento lógico, permitiendo a los estudiantes abordar problemas matemáticos desde diferentes perspectivas y encontrar soluciones más eficientes.</li>
+<li><p><strong>Preparación para el futuro</strong>: Desarrolla competencias prácticas para un mundo tecnológico y orientado a datos.</p></li>
+<li><p><strong>Aplicación en la vida real</strong>: Permite aplicar conceptos matemáticos en problemas reales, haciendo el aprendizaje más tangible.</p></li>
+<li><p><strong>Pensamiento crítico</strong>: Fomenta el razonamiento lógico y la resolución eficiente de problemas matemáticos.</p></li>
 </ol>
 <center>
 <img src="../../images/n01.png" width="700">
@@ -591,11 +591,11 @@ globalThis._qpyodideGetInstance = function() {
 </section>
 <section id="impacto-en-la-educación" class="level3">
 <h3 class="anchored" data-anchor-id="impacto-en-la-educación">Impacto en la Educación</h3>
-<p>La adopción de la programación en la educación ha mostrado un crecimiento constante en los últimos años, reflejando su creciente relevancia en el aprendizaje moderno.</p>
+<p>La adopción de la programación en la educación ha crecido constantemente, reflejando su relevancia en el aprendizaje moderno.</p>
 <ol type="1">
-<li><p><strong>Globalización de la enseñanza de programación</strong>: Aproximadamente el 43% de los países de ingresos altos requieren que los estudiantes reciban educación en ciencias de la computación (CS) durante la primaria y secundaria, lo que refleja un fuerte compromiso con la integración de estas habilidades en el currículo. En países de ingresos medios-altos, este porcentaje sube al 62%, destacando la importancia que estos países otorgan al desarrollo de competencias tecnológicas para enfrentar los desafíos laborales del futuro.</p></li>
-<li><p><strong>Distribución geográfica de la educación en programación</strong>: Si bien países de América del Norte y Europa han avanzado considerablemente en la integración de la programación en el aula, regiones como América Latina y el sudeste asiático también están implementando programas piloto y currículos nacionales para expandir esta enseñanza.</p></li>
-<li><p><strong>Desigualdad en el acceso a la tecnología educativa</strong>: Aunque el 91% de los países implementaron plataformas de aprendizaje online durante la pandemia, solo un cuarto de los estudiantes a nivel mundial tuvo acceso a ellas. Esta brecha revela que el acceso a la tecnología sigue siendo una barrera significativa para la educación equitativa en programación, especialmente en áreas rurales y entre estudiantes de bajos ingresos.</p></li>
+<li><p><strong>Globalización de la enseñanza</strong>: El 43% de los países de ingresos altos y el 62% de los países de ingresos medios-altos integran la educación en ciencias de la computación en primaria y secundaria, destacando la importancia de las competencias tecnológicas para el futuro laboral.</p></li>
+<li><p><strong>Distribución geográfica</strong>: Mientras América del Norte y Europa avanzan en la programación en el aula, América Latina y el sudeste asiático implementan programas piloto y currículos nacionales.</p></li>
+<li><p><strong>Desigualdad en el acceso</strong>: Aunque el 91% de los países lanzaron plataformas de aprendizaje online durante la pandemia, solo un cuarto de los estudiantes tuvo acceso, evidenciando barreras en áreas rurales y entre estudiantes de bajos ingresos.</p></li>
 </ol>
 <center>
 <img src="../../images/n02.png" width="700">
@@ -603,11 +603,11 @@ globalThis._qpyodideGetInstance = function() {
 </section>
 <section id="demanda-en-el-mercado-laboral" class="level3">
 <h3 class="anchored" data-anchor-id="demanda-en-el-mercado-laboral">Demanda en el Mercado Laboral</h3>
-<p>Las habilidades en programación y matemáticas son cruciales no solo en la educación, sino también en el mercado laboral. Existen varias tendencias importantes:</p>
+<p>Las habilidades en programación y matemáticas son esenciales en la educación y el mercado laboral. Las tendencias clave incluyen:</p>
 <ol type="1">
-<li><strong>Crecimiento en el desarrollo de software</strong>: El U.S. Bureau of Labor Statistics proyecta que la demanda de desarrolladores de software crecerá un 22% entre 2020 y 2030, muy por encima del promedio de otras ocupaciones.</li>
-<li><strong>Demanda de habilidades matemáticas</strong>: Un estudio de LinkedIn revela que las posiciones que requieren habilidades matemáticas, como ciencia de datos y análisis financiero, están creciendo a una tasa del 33% anual.</li>
-<li><strong>Salarios competitivos</strong>: Los profesionales en estos campos tienden a tener salarios elevados. Los programadores ganan un salario promedio de $110,000 al año en EE. UU., mientras que los matemáticos y analistas cuantitativos ganan en promedio $100,000.</li>
+<li><p><strong>Crecimiento en desarrollo de software</strong>: El U.S. Bureau of Labor Statistics proyecta un crecimiento del 22% en la demanda de desarrolladores de software entre 2020 y 2030.</p></li>
+<li><p><strong>Demanda de habilidades matemáticas</strong>: Según LinkedIn, puestos como ciencia de datos y análisis financiero crecen a un 33% anual.</p></li>
+<li><p><strong>Salarios competitivos</strong>: Los programadores en EE. UU. ganan un promedio de $110,000 al año, mientras que matemáticos y analistas cuantitativos ganan alrededor de $100,000.</p></li>
 </ol>
 <center>
 <img src="../../images/n03.png" width="500">
@@ -615,22 +615,22 @@ globalThis._qpyodideGetInstance = function() {
 </section>
 <section id="perspectiva-de-género" class="level3">
 <h3 class="anchored" data-anchor-id="perspectiva-de-género">Perspectiva de Género</h3>
-<p>Uno de los desafíos más persistentes en el ámbito de la programación y las matemáticas es la disparidad de género. Los datos actuales muestran lo siguiente:</p>
+<p>La disparidad de género en programación y matemáticas es un desafío persistente:</p>
 <ol type="1">
-<li><strong>Programación</strong>: Solo el 21% de los puestos en informática y programación son ocupados por mujeres. Sin embargo, las iniciativas para reducir esta brecha están creciendo, con programas que promueven la inclusión de más mujeres en ciencias de la computación.</li>
-<li><strong>Matemáticas</strong>: En ciencias matemáticas, aunque el 47% de los estudiantes de pregrado son mujeres, solo el 29% de los puestos académicos permanentes son ocupados por ellas. Esto indica que aún hay un largo camino por recorrer en cuanto a la equidad de género en estos campos.
+<li><p><strong>Programación</strong>: Solo el 21% de los puestos en informática son ocupados por mujeres, aunque hay crecientes iniciativas para reducir esta brecha.</p></li>
+<li><p><strong>Matemáticas</strong>: Aunque el 47% de los estudiantes de pregrado son mujeres, solo el 29% de los puestos académicos permanentes las incluyen, reflejando la necesidad de avanzar en la equidad de género.</p></li>
+</ol>
 <center>
 <img src="../../images/n04.png" width="300">
-</center></li>
-</ol>
+</center>
 </section>
 <section id="python-y-las-matemáticas-aplicadas" class="level3">
 <h3 class="anchored" data-anchor-id="python-y-las-matemáticas-aplicadas">Python y las Matemáticas Aplicadas</h3>
-<p>Python se ha posicionado como una herramienta esencial en las matemáticas aplicadas y la ciencia de datos. Existen varias razones para su popularidad:</p>
+<p>Python es esencial en matemáticas aplicadas y ciencia de datos por varias razones:</p>
 <ol type="1">
-<li><strong>Flexibilidad y adaptabilidad</strong>: Con bibliotecas como NumPy, Pandas, Matplotlib y SymPy, Python permite realizar cálculos complejos y visualizaciones de manera eficiente.</li>
-<li><strong>Relevancia en el machine learning</strong>: Según un estudio de Kaggle, el 85% de los científicos de datos considera que un fuerte entendimiento de matemáticas es esencial para desarrollar algoritmos de machine learning, y Python se ha convertido en el lenguaje preferido en este campo.</li>
-<li><strong>Versatilidad en visualización de datos</strong>: Python permite a los estudiantes y profesionales gestionar grandes volúmenes de datos y crear visualizaciones interactivas que facilitan el análisis y la toma de decisiones informadas.</li>
+<li><p><strong>Flexibilidad</strong>: Bibliotecas como NumPy, Pandas, Matplotlib y SymPy facilitan cálculos complejos y visualizaciones eficientes.</p></li>
+<li><p><strong>Machine learning</strong>: El 85% de los científicos de datos considera que las matemáticas son cruciales para el desarrollo de algoritmos, y Python es el lenguaje preferido.</p></li>
+<li><p><strong>Visualización de datos</strong>: Permite gestionar grandes volúmenes de datos y crear visualizaciones interactivas para un análisis más efectivo.</p></li>
 </ol>
 <center>
 <img src="../../images/n05.png" width="300">
@@ -642,28 +642,48 @@ globalThis._qpyodideGetInstance = function() {
 <section id="aritmética-y-python" class="level3">
 <h3 class="anchored" data-anchor-id="aritmética-y-python">🔢 Aritmética y Python</h3>
 <p>Estos ejercicios están diseñados para ayudar a los estudiantes a practicar conceptos aritméticos básicos utilizando Python.</p>
-<section id="sumar-y-restar-fracciones" class="level4">
-<h4 class="anchored" data-anchor-id="sumar-y-restar-fracciones">1. Sumar y Restar Fracciones</h4>
+<section id="verificar-si-un-número-es-par-o-impar" class="level4">
+<h4 class="anchored" data-anchor-id="verificar-si-un-número-es-par-o-impar">1. Verificar si un Número es Par o Impar</h4>
+<p>Este ejercicio enseña a los estudiantes a usar el operador módulo (<code>%</code>) para determinar si un número es divisible por 2, clasificándolo como “par” o “impar”.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/N%C3%BAmeros_pares_e_impares">Número par e impar - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="calcular-el-promedio-de-una-lista-de-números" class="level4">
 <h4 class="anchored" data-anchor-id="calcular-el-promedio-de-una-lista-de-números">2. Calcular el Promedio de una Lista de Números</h4>
+<p>Aquí se muestra cómo calcular el promedio (media aritmética) de una lista de números, sumando los elementos y dividiéndolos por la cantidad de elementos.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Media_aritm%C3%A9tica">Media aritmética - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="mínimo-común-múltiplo-mcm" class="level4">
 <h4 class="anchored" data-anchor-id="mínimo-común-múltiplo-mcm">3. Mínimo Común Múltiplo (MCM)</h4>
+<p>Este ejercicio utiliza el concepto de Mínimo Común Múltiplo, calculando el menor número que es múltiplo común de dos números dados.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/M%C3%ADnimo_com%C3%BAn_m%C3%BAltiplo">Mínimo común múltiplo - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="convertir-de-decimal-a-binario" class="level4">
-<h4 class="anchored" data-anchor-id="convertir-de-decimal-a-binario">4. Convertir de Decimal a Binario</h4>
+<section id="calcular-el-máximo-común-divisor-mcd" class="level4">
+<h4 class="anchored" data-anchor-id="calcular-el-máximo-común-divisor-mcd">4. Calcular el Máximo Común Divisor (MCD)</h4>
+<p>Aquí se utiliza el algoritmo de Euclides para encontrar el mayor número que divide exactamente a dos números, enseñando un método eficiente para encontrar el MCD.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/M%C3%A1ximo_com%C3%BAn_divisor">Máximo común divisor - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="calcular-el-factorial-de-un-número" class="level4">
 <h4 class="anchored" data-anchor-id="calcular-el-factorial-de-un-número">5. Calcular el Factorial de un Número</h4>
+<p>El ejercicio muestra cómo calcular el factorial de un número, que es el producto de todos los números enteros positivos menores o iguales a ese número.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Factorial">Factorial - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <hr>
@@ -674,26 +694,46 @@ globalThis._qpyodideGetInstance = function() {
 <p>Estos ejercicios permiten a los estudiantes interactuar con conceptos geométricos mediante Python.</p>
 <section id="calcular-el-área-y-perímetro-de-un-rectángulo" class="level4">
 <h4 class="anchored" data-anchor-id="calcular-el-área-y-perímetro-de-un-rectángulo">1. Calcular el Área y Perímetro de un Rectángulo</h4>
+<p>Este ejercicio muestra cómo calcular el área y el perímetro de un rectángulo usando las fórmulas básicas: multiplicar largo por ancho para el área y sumar dos veces la suma de largo y ancho para el perímetro.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Rect%C3%A1ngulo">Rectángulo - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="calcular-el-volumen-de-un-cilindro" class="level4">
 <h4 class="anchored" data-anchor-id="calcular-el-volumen-de-un-cilindro">2. Calcular el Volumen de un Cilindro</h4>
+<p>En este ejercicio, se calcula el volumen de un cilindro utilizando la fórmula: π × radio² × altura, introduciendo a los estudiantes al concepto de volumen en cuerpos geométricos.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Cilindro_(geometr%C3%ADa)">Cilindro - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-7"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="calcular-el-área-de-un-triángulo" class="level4">
 <h4 class="anchored" data-anchor-id="calcular-el-área-de-un-triángulo">3. Calcular el Área de un Triángulo</h4>
+<p>Aquí se calcula el área de un triángulo utilizando la fórmula básica: (base × altura) / 2, ayudando a los estudiantes a entender cómo se mide el espacio dentro de un triángulo.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Tri%C3%A1ngulo">Triángulo - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-8"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-la-distancia-entre-dos-puntos" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-la-distancia-entre-dos-puntos">4. Calcular la Distancia entre dos Puntos</h4>
+<section id="calcular-el-área-de-un-círculo" class="level4">
+<h4 class="anchored" data-anchor-id="calcular-el-área-de-un-círculo">4. Calcular el Área de un Círculo</h4>
+<p>Aquí se calcula el área de un círculo con la fórmula: π × radio², lo que introduce a los estudiantes al uso del número π y a los conceptos de medición en figuras circulares.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/C%C3%ADrculo">Círculo - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-9"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-el-área-de-un-círculo" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-el-área-de-un-círculo">5. Calcular el Área de un Círculo</h4>
+<section id="calcular-la-distancia-entre-dos-puntos" class="level4">
+<h4 class="anchored" data-anchor-id="calcular-la-distancia-entre-dos-puntos">5. Calcular la Distancia entre dos Puntos</h4>
+<p>Este ejercicio utiliza la fórmula de la distancia euclidiana para calcular la distancia entre dos puntos en un plano, reforzando el concepto de coordenadas y medidas en la geometría.</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Distancia_euclidiana">Distancia euclidiana - Wikipedia</a></li>
+</ul>
 <div id="qpyodide-insertion-location-10"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
@@ -705,14 +745,14 @@ globalThis._qpyodideGetInstance = function() {
 <img src="../../images/n06.png" width="500">
 </center>
 <p><br></p>
-<p>La inteligencia artificial (IA), a través de herramientas como ChatGPT, está transformando radicalmente la enseñanza de matemáticas y programación. Al permitir que los estudiantes interactúen con una IA capaz de responder preguntas, ofrecer explicaciones detalladas y resolver problemas en tiempo real, se crea un entorno de aprendizaje más dinámico y accesible. Estas herramientas ofrecen beneficios clave:</p>
+<p>La inteligencia artificial (IA), como ChatGPT, está transformando la enseñanza de matemáticas y programación al crear un entorno de aprendizaje dinámico. Sus beneficios clave incluyen:</p>
 <ol type="1">
-<li><p><strong>Personalización del aprendizaje</strong>: ChatGPT permite a los estudiantes avanzar a su propio ritmo, ofreciendo respuestas personalizadas y adaptadas a sus niveles de comprensión, lo que facilita una experiencia de aprendizaje más inclusiva.</p></li>
-<li><p><strong>Retroalimentación inmediata</strong>: La IA puede proporcionar correcciones y sugerencias al instante, algo que es especialmente útil en la enseñanza de programación, donde resolver errores en tiempo real mejora significativamente el proceso de aprendizaje.</p></li>
-<li><p><strong>Acceso global a la educación</strong>: ChatGPT y otras IA pueden ser usadas en cualquier lugar con conexión a internet, eliminando barreras geográficas y haciendo que la enseñanza de matemáticas y programación sea accesible para estudiantes de todo el mundo, incluso en regiones con escasez de profesores capacitados.</p></li>
-<li><p><strong>Ahorro de tiempo para profesores</strong>: Los docentes pueden delegar tareas rutinarias, como responder preguntas frecuentes, a la IA, permitiéndoles enfocarse en aspectos más complejos del aprendizaje y la enseñanza, optimizando el tiempo en el aula.</p></li>
+<li><strong>Personalización</strong>: Ofrece respuestas adaptadas a cada estudiante, facilitando un aprendizaje inclusivo y al ritmo del alumno.</li>
+<li><strong>Retroalimentación</strong>: Brinda correcciones al instante, mejorando la enseñanza de programación al resolver errores en tiempo real.</li>
+<li><strong>Acceso global</strong>: Facilita el aprendizaje en cualquier lugar con internet, eliminando barreras geográficas.</li>
+<li><strong>Ahorro de tiempo</strong>: Los docentes pueden delegar tareas rutinarias a la IA, enfocándose en aspectos más complejos del aprendizaje.</li>
 </ol>
-<p>En combinación con plataformas interactivas como <strong>Jupyter Notebooks</strong> o <strong>Google Colab</strong>, los estudiantes pueden explorar conceptos de forma práctica mientras reciben asistencia de la IA, lo que facilita la comprensión de temas complejos y la aplicación inmediata del conocimiento adquirido. Este enfoque no solo fortalece las habilidades técnicas, sino que también prepara a los estudiantes para un entorno cada vez más impulsado por la tecnología.</p>
+<p>Junto con plataformas como <strong>Jupyter Notebooks</strong> y <strong>Google Colab</strong>, los estudiantes aplican conceptos mientras reciben asistencia, fortaleciendo sus habilidades técnicas y preparándolos para un mundo tecnológico.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Desafío para Profesores:">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -725,8 +765,8 @@ Desafío para Profesores:
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>El desafío para los profesores es seguir aprendiendo programación en Python y explorar nuevas formas de integrar estas herramientas en la enseñanza de matemáticas. A la vez, deben motivar a los estudiantes a profundizar en programación, demostrando cómo puede resolver problemas complejos de manera eficiente. ChatGPT facilita este proceso, proporcionando un recurso interactivo para resolver dudas y reforzar el aprendizaje.</p>
-<p>Crear ejercicios que combinen Python con matemáticas y animar a los estudiantes a interactuar con la IA impulsa una mayor participación, además de introducirlos a tecnologías emergentes como la inteligencia artificial.</p>
+<p>El reto para los profesores es seguir aprendiendo Python y encontrar nuevas formas de integrarlo en la enseñanza de matemáticas. Deben motivar a los estudiantes a profundizar en programación, mostrando cómo puede resolver problemas complejos de forma eficiente.</p>
+<p><strong>ChatGPT</strong> es una herramienta clave en este proceso, ya que ofrece un recurso interactivo para resolver dudas y reforzar el aprendizaje. Al crear ejercicios que combinen Python y matemáticas, y animar a los estudiantes a interactuar con la IA, los docentes fomentan una mayor participación e introducen a los estudiantes a tecnologías emergentes como la inteligencia artificial.</p>
 </div>
 </div>
 </div>
