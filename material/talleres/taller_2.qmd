@@ -14,15 +14,17 @@ Este taller está diseñado para profesores de matemáticas de enseñanza media 
 
 ## Contexto y Justificación
 
-Integrar la programación en Python en la enseñanza de matemáticas ofrece una oportunidad única para explorar conceptos matemáticos de manera dinámica. Python, con su sintaxis clara y su amplia gama de bibliotecas, es una herramienta excelente para demostrar temas que van desde la aritmética básica hasta conceptos más avanzados como el cálculo y la estadística. La facilidad de Python para generar simulaciones, realizar cálculos simbólicos y construir visualizaciones lo convierte en una plataforma ideal para los educadores que buscan enriquecer la comprensión matemática de los estudiantes.
+Integrar Python en la enseñanza de matemáticas permite explorar conceptos de forma dinámica. Su sintaxis clara y numerosas bibliotecas facilitan la demostración de temas, desde aritmética básica hasta cálculo y estadística, enriqueciendo la comprensión matemática de los estudiantes.
 
 ### Importancia de Integrar Python en la Educación Media
 
-La inclusión de Python en el currículo de la enseñanza media es crucial no solo para fomentar el interés y la competencia en ciencias de la computación, sino también para integrar habilidades computacionales en el aprendizaje de las matemáticas. Esta integración tiene varios beneficios clave:
+Incluir Python en la enseñanza media fomenta el interés en ciencias de la computación y refuerza el aprendizaje matemático. Sus beneficios clave son:
 
-1. **Preparación para los desafíos futuros**: Los estudiantes desarrollan competencias prácticas que les preparan para un mundo cada vez más tecnológico y orientado a los datos.
-2. **Aplicación de matemáticas en situaciones reales**: Python permite que los estudiantes apliquen conceptos matemáticos abstractos en problemas del mundo real, haciendo que el aprendizaje sea más tangible.
-3. **Desarrollo del pensamiento crítico y la resolución de problemas**: Utilizar Python fomenta el desarrollo de habilidades de razonamiento lógico, permitiendo a los estudiantes abordar problemas matemáticos desde diferentes perspectivas y encontrar soluciones más eficientes.
+1. **Preparación para el futuro**: Desarrolla competencias prácticas para un mundo tecnológico y orientado a datos.
+
+2. **Aplicación en la vida real**: Permite aplicar conceptos matemáticos en problemas reales, haciendo el aprendizaje más tangible.
+
+3. **Pensamiento crítico**: Fomenta el razonamiento lógico y la resolución eficiente de problemas matemáticos.
 
 <center>
 <img src="../../images/n01.png" width="700">
@@ -30,19 +32,13 @@ La inclusión de Python en el currículo de la enseñanza media es crucial no so
 
 ### Impacto en la Educación
 
-La adopción de la programación en la educación ha mostrado un crecimiento constante en los últimos años, reflejando su creciente relevancia en el aprendizaje moderno. 
+La adopción de la programación en la educación ha crecido constantemente, reflejando su relevancia en el aprendizaje moderno.
 
-1. **Globalización de la enseñanza de programación**: Aproximadamente el 43% de los países de ingresos altos requieren que los estudiantes reciban educación en ciencias de la computación (CS) durante la primaria y secundaria, lo que refleja un fuerte compromiso con la integración de estas habilidades en el currículo. En países de ingresos medios-altos, este porcentaje sube al 62%, destacando la importancia que estos países otorgan al desarrollo de competencias tecnológicas para enfrentar los desafíos laborales del futuro.
+1. **Globalización de la enseñanza**: El 43% de los países de ingresos altos y el 62% de los países de ingresos medios-altos integran la educación en ciencias de la computación en primaria y secundaria, destacando la importancia de las competencias tecnológicas para el futuro laboral.
 
-2. **Distribución geográfica de la educación en programación**: Si bien países de América del Norte y Europa han avanzado considerablemente en la integración de la programación en el aula, regiones como América Latina y el sudeste asiático también están implementando programas piloto y currículos nacionales para expandir esta enseñanza.
+2. **Distribución geográfica**: Mientras América del Norte y Europa avanzan en la programación en el aula, América Latina y el sudeste asiático implementan programas piloto y currículos nacionales.
 
-3. **Desigualdad en el acceso a la tecnología educativa**: Aunque el 91% de los países implementaron plataformas de aprendizaje online durante la pandemia, solo un cuarto de los estudiantes a nivel mundial tuvo acceso a ellas. Esta brecha revela que el acceso a la tecnología sigue siendo una barrera significativa para la educación equitativa en programación, especialmente en áreas rurales y entre estudiantes de bajos ingresos.
-
-
-
-
-
-
+3. **Desigualdad en el acceso**: Aunque el 91% de los países lanzaron plataformas de aprendizaje online durante la pandemia, solo un cuarto de los estudiantes tuvo acceso, evidenciando barreras en áreas rurales y entre estudiantes de bajos ingresos.
 
 <center>
 <img src="../../images/n02.png" width="700">
@@ -50,11 +46,13 @@ La adopción de la programación en la educación ha mostrado un crecimiento con
 
 ### Demanda en el Mercado Laboral
 
-Las habilidades en programación y matemáticas son cruciales no solo en la educación, sino también en el mercado laboral. Existen varias tendencias importantes:
+Las habilidades en programación y matemáticas son esenciales en la educación y el mercado laboral. Las tendencias clave incluyen:
 
-1. **Crecimiento en el desarrollo de software**: El U.S. Bureau of Labor Statistics proyecta que la demanda de desarrolladores de software crecerá un 22% entre 2020 y 2030, muy por encima del promedio de otras ocupaciones.
-2. **Demanda de habilidades matemáticas**: Un estudio de LinkedIn revela que las posiciones que requieren habilidades matemáticas, como ciencia de datos y análisis financiero, están creciendo a una tasa del 33% anual.
-3. **Salarios competitivos**: Los profesionales en estos campos tienden a tener salarios elevados. Los programadores ganan un salario promedio de $110,000 al año en EE. UU., mientras que los matemáticos y analistas cuantitativos ganan en promedio $100,000.
+1. **Crecimiento en desarrollo de software**: El U.S. Bureau of Labor Statistics proyecta un crecimiento del 22% en la demanda de desarrolladores de software entre 2020 y 2030.
+
+2. **Demanda de habilidades matemáticas**: Según LinkedIn, puestos como ciencia de datos y análisis financiero crecen a un 33% anual.
+
+3. **Salarios competitivos**: Los programadores en EE. UU. ganan un promedio de $110,000 al año, mientras que matemáticos y analistas cuantitativos ganan alrededor de $100,000.
 
 <center>
 <img src="../../images/n03.png" width="500">
@@ -63,21 +61,25 @@ Las habilidades en programación y matemáticas son cruciales no solo en la educ
 
 ### Perspectiva de Género
 
-Uno de los desafíos más persistentes en el ámbito de la programación y las matemáticas es la disparidad de género. Los datos actuales muestran lo siguiente:
+La disparidad de género en programación y matemáticas es un desafío persistente:
 
-1. **Programación**: Solo el 21% de los puestos en informática y programación son ocupados por mujeres. Sin embargo, las iniciativas para reducir esta brecha están creciendo, con programas que promueven la inclusión de más mujeres en ciencias de la computación.
-2. **Matemáticas**: En ciencias matemáticas, aunque el 47% de los estudiantes de pregrado son mujeres, solo el 29% de los puestos académicos permanentes son ocupados por ellas. Esto indica que aún hay un largo camino por recorrer en cuanto a la equidad de género en estos campos.
+1. **Programación**: Solo el 21% de los puestos en informática son ocupados por mujeres, aunque hay crecientes iniciativas para reducir esta brecha.
+
+2. **Matemáticas**: Aunque el 47% de los estudiantes de pregrado son mujeres, solo el 29% de los puestos académicos permanentes las incluyen, reflejando la necesidad de avanzar en la equidad de género.
+
 <center>
 <img src="../../images/n04.png" width="300">
 </center>
 
 ### Python y las Matemáticas Aplicadas
 
-Python se ha posicionado como una herramienta esencial en las matemáticas aplicadas y la ciencia de datos. Existen varias razones para su popularidad:
+Python es esencial en matemáticas aplicadas y ciencia de datos por varias razones:
 
-1. **Flexibilidad y adaptabilidad**: Con bibliotecas como NumPy, Pandas, Matplotlib y SymPy, Python permite realizar cálculos complejos y visualizaciones de manera eficiente.
-2. **Relevancia en el machine learning**: Según un estudio de Kaggle, el 85% de los científicos de datos considera que un fuerte entendimiento de matemáticas es esencial para desarrollar algoritmos de machine learning, y Python se ha convertido en el lenguaje preferido en este campo.
-3. **Versatilidad en visualización de datos**: Python permite a los estudiantes y profesionales gestionar grandes volúmenes de datos y crear visualizaciones interactivas que facilitan el análisis y la toma de decisiones informadas.
+1. **Flexibilidad**: Bibliotecas como NumPy, Pandas, Matplotlib y SymPy facilitan cálculos complejos y visualizaciones eficientes.
+
+2. **Machine learning**: El 85% de los científicos de datos considera que las matemáticas son cruciales para el desarrollo de algoritmos, y Python es el lenguaje preferido.
+
+3. **Visualización de datos**: Permite gestionar grandes volúmenes de datos y crear visualizaciones interactivas para un análisis más efectivo.
 
 <center>
 <img src="../../images/n05.png" width="300">
@@ -90,24 +92,32 @@ Python se ha posicionado como una herramienta esencial en las matemáticas aplic
 
 Estos ejercicios están diseñados para ayudar a los estudiantes a practicar conceptos aritméticos básicos utilizando Python.
 
-#### 1. Sumar y Restar Fracciones
+
+#### 1. Verificar si un Número es Par o Impar
+
+Este ejercicio enseña a los estudiantes a usar el operador módulo (`%`) para determinar si un número es divisible por 2, clasificándolo como "par" o "impar".
+
+- [Número par e impar - Wikipedia](https://es.wikipedia.org/wiki/N%C3%BAmeros_pares_e_impares)
+
 
 ```{pyodide-python}
-from fractions import Fraction
-
-def operaciones_fracciones(f1, f2):
-    suma = f1 + f2
-    resta = f1 - f2
-    return suma, resta
+def es_par(numero):
+    if numero % 2 == 0:
+        return "par"
+    else:
+        return "impar"
 
 # Ejemplo de uso
-fraccion1 = Fraction(3, 4)
-fraccion2 = Fraction(2, 5)
-suma, resta = operaciones_fracciones(fraccion1, fraccion2)
-print(f"La suma de las fracciones es {suma}, y la resta es {resta}")
+numero = 7
+print(f"El número {numero} es {es_par(numero)}.")
 ```
 
+
 #### 2. Calcular el Promedio de una Lista de Números
+
+Aquí se muestra cómo calcular el promedio (media aritmética) de una lista de números, sumando los elementos y dividiéndolos por la cantidad de elementos.
+
+- [Media aritmética - Wikipedia](https://es.wikipedia.org/wiki/Media_aritm%C3%A9tica)
 
 ```{pyodide-python}
 def promedio(numeros):
@@ -120,6 +130,10 @@ print(f"El promedio es {promedio(numeros):.2f}")
 
 #### 3. Mínimo Común Múltiplo (MCM)
 
+Este ejercicio utiliza el concepto de Mínimo Común Múltiplo, calculando el menor número que es múltiplo común de dos números dados.
+
+- [Mínimo común múltiplo - Wikipedia](https://es.wikipedia.org/wiki/M%C3%ADnimo_com%C3%BAn_m%C3%BAltiplo)
+
 ```{pyodide-python}
 import math
 
@@ -131,18 +145,30 @@ num1, num2 = 12, 15
 print(f"El MCM de {num1} y {num2} es {mcm(num1, num2)}")
 ```
 
-#### 4. Convertir de Decimal a Binario
+
+#### 4. Calcular el Máximo Común Divisor (MCD)
+
+Aquí se utiliza el algoritmo de Euclides para encontrar el mayor número que divide exactamente a dos números, enseñando un método eficiente para encontrar el MCD.
+
+- [Máximo común divisor - Wikipedia](https://es.wikipedia.org/wiki/M%C3%A1ximo_com%C3%BAn_divisor)
 
 ```{pyodide-python}
-def decimal_a_binario(num):
-    return bin(num)[2:]
+def mcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
 
 # Ejemplo de uso
-numero = 29
-print(f"El número {numero} en binario es {decimal_a_binario(numero)}")
+num1 = 56
+num2 = 98
+print(f"El MCD de {num1} y {num2} es {mcd(num1, num2)}")
 ```
 
 #### 5. Calcular el Factorial de un Número
+
+El ejercicio muestra cómo calcular el factorial de un número, que es el producto de todos los números enteros positivos menores o iguales a ese número.
+
+- [Factorial - Wikipedia](https://es.wikipedia.org/wiki/Factorial)
 
 ```{pyodide-python}
 import math
@@ -161,7 +187,12 @@ print(f"El factorial de {numero} es {factorial(numero)}")
 
 Estos ejercicios permiten a los estudiantes interactuar con conceptos geométricos mediante Python.
 
+
 #### 1. Calcular el Área y Perímetro de un Rectángulo
+
+Este ejercicio muestra cómo calcular el área y el perímetro de un rectángulo usando las fórmulas básicas: multiplicar largo por ancho para el área y sumar dos veces la suma de largo y ancho para el perímetro.
+
+- [Rectángulo - Wikipedia](https://es.wikipedia.org/wiki/Rect%C3%A1ngulo)
 
 ```{pyodide-python}
 def area_perimetro_rectangulo(largo, ancho):
@@ -178,6 +209,10 @@ print(f"El área del rectángulo es {area} y el perímetro es {perimetro}")
 
 #### 2. Calcular el Volumen de un Cilindro
 
+En este ejercicio, se calcula el volumen de un cilindro utilizando la fórmula: π × radio² × altura, introduciendo a los estudiantes al concepto de volumen en cuerpos geométricos.
+
+- [Cilindro - Wikipedia](https://es.wikipedia.org/wiki/Cilindro_(geometr%C3%ADa))
+
 ```{pyodide-python}
 import math
 
@@ -192,6 +227,10 @@ print(f"El volumen del cilindro es {volumen_cilindro(radio, altura):.2f}")
 
 #### 3. Calcular el Área de un Triángulo
 
+Aquí se calcula el área de un triángulo utilizando la fórmula básica: (base × altura) / 2, ayudando a los estudiantes a entender cómo se mide el espacio dentro de un triángulo.
+
+- [Triángulo - Wikipedia](https://es.wikipedia.org/wiki/Tri%C3%A1ngulo)
+
 ```{pyodide-python}
 def area_triangulo(base, altura):
     return (base * altura) / 2
@@ -202,7 +241,29 @@ altura = 9
 print(f"El área del triángulo es {area_triangulo(base, altura):.2f}")
 ```
 
-#### 4. Calcular la Distancia entre dos Puntos
+
+#### 4. Calcular el Área de un Círculo
+
+Aquí se calcula el área de un círculo con la fórmula: π × radio², lo que introduce a los estudiantes al uso del número π y a los conceptos de medición en figuras circulares.
+
+- [Círculo - Wikipedia](https://es.wikipedia.org/wiki/C%C3%ADrculo)
+
+```{pyodide-python}
+import math
+
+def area_circulo(radio):
+    return math.pi * radio ** 2
+
+# Ejemplo de uso
+radio = 5
+print(f"El área de un círculo con radio {radio} es {area_circulo(radio):.2f}")
+```
+
+#### 5. Calcular la Distancia entre dos Puntos
+
+Este ejercicio utiliza la fórmula de la distancia euclidiana para calcular la distancia entre dos puntos en un plano, reforzando el concepto de coordenadas y medidas en la geometría.
+
+- [Distancia euclidiana - Wikipedia](https://es.wikipedia.org/wiki/Distancia_euclidiana)
 
 ```{pyodide-python}
 import math
@@ -216,20 +277,6 @@ x2, y2 = 8, 7
 print(f"La distancia entre los puntos es {distancia_puntos(x1, y1, x2, y2):.2f}")
 ```
 
-#### 5. Calcular el Área de un Círculo
-
-```{pyodide-python}
-import math
-
-def area_circulo(radio):
-    return math.pi * radio ** 2
-
-# Ejemplo de uso
-radio = 5
-print(f"El área de un círculo con radio {radio} es {area_circulo(radio):.2f}")
-```
-
-
 
 ## Implementación en el Aula con Inteligencia Artificial y ChatGPT
 
@@ -239,21 +286,18 @@ print(f"El área de un círculo con radio {radio} es {area_circulo(radio):.2f}")
 
 <br>
 
-La inteligencia artificial (IA), a través de herramientas como ChatGPT, está transformando radicalmente la enseñanza de matemáticas y programación. Al permitir que los estudiantes interactúen con una IA capaz de responder preguntas, ofrecer explicaciones detalladas y resolver problemas en tiempo real, se crea un entorno de aprendizaje más dinámico y accesible. Estas herramientas ofrecen beneficios clave:
+La inteligencia artificial (IA), como ChatGPT, está transformando la enseñanza de matemáticas y programación al crear un entorno de aprendizaje dinámico. Sus beneficios clave incluyen:
 
-1. **Personalización del aprendizaje**: ChatGPT permite a los estudiantes avanzar a su propio ritmo, ofreciendo respuestas personalizadas y adaptadas a sus niveles de comprensión, lo que facilita una experiencia de aprendizaje más inclusiva.
-   
-2. **Retroalimentación inmediata**: La IA puede proporcionar correcciones y sugerencias al instante, algo que es especialmente útil en la enseñanza de programación, donde resolver errores en tiempo real mejora significativamente el proceso de aprendizaje.
+1. **Personalización**: Ofrece respuestas adaptadas a cada estudiante, facilitando un aprendizaje inclusivo y al ritmo del alumno.
+2. **Retroalimentación**: Brinda correcciones al instante, mejorando la enseñanza de programación al resolver errores en tiempo real.
+3. **Acceso global**: Facilita el aprendizaje en cualquier lugar con internet, eliminando barreras geográficas.
+4. **Ahorro de tiempo**: Los docentes pueden delegar tareas rutinarias a la IA, enfocándose en aspectos más complejos del aprendizaje.
 
-3. **Acceso global a la educación**: ChatGPT y otras IA pueden ser usadas en cualquier lugar con conexión a internet, eliminando barreras geográficas y haciendo que la enseñanza de matemáticas y programación sea accesible para estudiantes de todo el mundo, incluso en regiones con escasez de profesores capacitados.
-
-4. **Ahorro de tiempo para profesores**: Los docentes pueden delegar tareas rutinarias, como responder preguntas frecuentes, a la IA, permitiéndoles enfocarse en aspectos más complejos del aprendizaje y la enseñanza, optimizando el tiempo en el aula.
-
-En combinación con plataformas interactivas como **Jupyter Notebooks** o **Google Colab**, los estudiantes pueden explorar conceptos de forma práctica mientras reciben asistencia de la IA, lo que facilita la comprensión de temas complejos y la aplicación inmediata del conocimiento adquirido. Este enfoque no solo fortalece las habilidades técnicas, sino que también prepara a los estudiantes para un entorno cada vez más impulsado por la tecnología.
+Junto con plataformas como **Jupyter Notebooks** y **Google Colab**, los estudiantes aplican conceptos mientras reciben asistencia, fortaleciendo sus habilidades técnicas y preparándolos para un mundo tecnológico.
 
 ::: {.callout-tip collapse="false" title="Desafío para Profesores:"}
-El desafío para los profesores es seguir aprendiendo programación en Python y explorar nuevas formas de integrar estas herramientas en la enseñanza de matemáticas. A la vez, deben motivar a los estudiantes a profundizar en programación, demostrando cómo puede resolver problemas complejos de manera eficiente. ChatGPT facilita este proceso, proporcionando un recurso interactivo para resolver dudas y reforzar el aprendizaje.
+El reto para los profesores es seguir aprendiendo Python y encontrar nuevas formas de integrarlo en la enseñanza de matemáticas. Deben motivar a los estudiantes a profundizar en programación, mostrando cómo puede resolver problemas complejos de forma eficiente.
 
-Crear ejercicios que combinen Python con matemáticas y animar a los estudiantes a interactuar con la IA impulsa una mayor participación, además de introducirlos a tecnologías emergentes como la inteligencia artificial.
+**ChatGPT** es una herramienta clave en este proceso, ya que ofrece un recurso interactivo para resolver dudas y reforzar el aprendizaje. Al crear ejercicios que combinen Python y matemáticas, y animar a los estudiantes a interactuar con la IA, los docentes fomentan una mayor participación e introducen a los estudiantes a tecnologías emergentes como la inteligencia artificial.
 :::
 
