@@ -75,3 +75,4 @@ _site
 /.quarto/
 docs
 _others_
+.vscode
