@@ -477,3 +477,15 @@ print(" -> ".join(map(str, conjetura_de_collatz(numero))))
 ```
 
 Estos ejemplos permiten a los estudiantes ver cómo la función genera diferentes secuencias según el número inicial, reforzando su comprensión del uso de bucles, listas y estructuras condicionales en Python. Este ejercicio no solo es una excelente práctica de programación, sino que también introduce a los estudiantes a un fascinante problema matemático.
+
+
+## Conclusiones
+
+El uso de Python en la enseñanza de las matemáticas no solo moderniza el aprendizaje, sino que también lo vuelve más interactivo y entretenido. A través de ejercicios prácticos como la conversión de temperatura, el cálculo del IMC y la exploración de secuencias matemáticas, los estudiantes adquieren habilidades clave para el mundo tecnológico.
+
+::: {.callout-tip collapse="false" title="Desafío para Estudiantes:"}
+El desafío para los estudiantes es seguir explorando y practicando con Python para hacer las matemáticas más divertidas y comprensibles. ¡Atrévete a resolver problemas, experimentar con nuevas ideas y descubrir cómo la programación puede mejorar tu comprensión de la ciencia y la tecnología!
+:::
+
+
+> 🔑 **Nota**: Para aquellos interesados en continuar su aprendizaje, pueden visitar [este sitio de recursos](https://seth-nut.github.io/resources/) para acceder a material educativo adicional.
