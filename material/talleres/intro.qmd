@@ -2,6 +2,9 @@
 
 ## Programación
 
+<img src="../../images/algorithm.png" alt="Girl in a jacket" width="200" >
+
+
 Podríamos definir la esencia de la [programación](https://es.wikipedia.org/wiki/Programaci%C3%B3n) en una frase sencilla:
 
 > "Automatizar tareas para que sean ejecutadas por la computadora."
@@ -16,6 +19,8 @@ Si la computadora no actúa como esperábamos, usualmente significa que no hemos
 La programación es tanto un arte como una ciencia, una práctica mediante la cual traducimos ideas complejas en comandos que las máquinas puedan seguir eficientemente.
 
 ## Python
+
+<img src="../../images/python.png" alt="Girl in a jacket" width="200" >
 
 [Python](https://es.wikipedia.org/wiki/Python) se ha consolidado como uno de los lenguajes de programación más populares del mundo, y su crecimiento puede atribuirse a tres factores clave:
 
