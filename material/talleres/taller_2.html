@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -69,6 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/editor/editor.main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
   
@@ -231,7 +234,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"code":"def es_par(numero):\n    if numero % 2 == 0:\n        return \"par\"\n    else:\n        return \"impar\"\n\n# Ejemplo de uso\nnumero = 7\nprint(f\"El número {numero} es {es_par(numero)}.\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":2,"code":"def promedio(numeros):\n    return sum(numeros) / len(numeros)\n\n# Ejemplo de uso\nnumeros = [4, 8, 15, 16, 23, 42]\nprint(f\"El promedio es {promedio(numeros):.2f}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":3,"code":"import math\n\ndef mcm(a, b):\n    return abs(a * b) // math.gcd(a, b)\n\n# Ejemplo de uso\nnum1, num2 = 12, 15\nprint(f\"El MCM de {num1} y {num2} es {mcm(num1, num2)}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":4,"code":"def mcd(a, b):\n    while b != 0:\n        a, b = b, a % b\n    return a\n\n# Ejemplo de uso\nnum1 = 56\nnum2 = 98\nprint(f\"El MCD de {num1} y {num2} es {mcd(num1, num2)}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":5,"code":"import math\n\ndef factorial(n):\n    return math.factorial(n)\n\n# Ejemplo de uso\nnumero = 5\nprint(f\"El factorial de {numero} es {factorial(numero)}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":6,"code":"def area_perimetro_rectangulo(largo, ancho):\n    area = largo * ancho\n    perimetro = 2 * (largo + ancho)\n    return area, perimetro\n\n# Ejemplo de uso\nlargo = 10\nancho = 5\narea, perimetro = area_perimetro_rectangulo(largo, ancho)\nprint(f\"El área del rectángulo es {area} y el perímetro es {perimetro}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":7,"code":"import math\n\ndef volumen_cilindro(radio, altura):\n    return math.pi * radio ** 2 * altura\n\n# Ejemplo de uso\nradio = 3\naltura = 7\nprint(f\"El volumen del cilindro es {volumen_cilindro(radio, altura):.2f}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":8,"code":"def area_triangulo(base, altura):\n    return (base * altura) / 2\n\n# Ejemplo de uso\nbase = 6\naltura = 9\nprint(f\"El área del triángulo es {area_triangulo(base, altura):.2f}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":9,"code":"import math\n\ndef area_circulo(radio):\n    return math.pi * radio ** 2\n\n# Ejemplo de uso\nradio = 5\nprint(f\"El área de un círculo con radio {radio} es {area_circulo(radio):.2f}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}},{"id":10,"code":"import math\n\ndef distancia_puntos(x1, y1, x2, y2):\n    return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)\n\n# Ejemplo de uso\nx1, y1 = 2, 3\nx2, y2 = 8, 7\nprint(f\"La distancia entre los puntos es {distancia_puntos(x1, y1, x2, y2):.2f}\")","options":{"warning":"true","read-only":"false","autorun":"","fig-width":7,"comment":"","out-height":"","message":"true","context":"interactive","results":"markup","out-width":"700px","output":"true","fig-height":5,"dpi":72,"fig-cap":"","classes":"","label":""}}];
+globalThis.qpyodideCellDetails = [{"code":"def fahrenheit_a_celsius(fahrenheit):\n    celsius = (fahrenheit - 32) * 5 / 9\n    return celsius\n\n# Ejemplo de uso\ntemperatura_f = 100\nprint(f\"La temperatura {temperatura_f}°F es igual a {fahrenheit_a_celsius(temperatura_f):.2f}°C.\")","id":1,"options":{"fig-height":5,"fig-cap":"","dpi":72,"read-only":"false","out-height":"","warning":"true","comment":"","autorun":"","out-width":"700px","fig-width":7,"message":"true","results":"markup","label":"","output":"true","context":"interactive","classes":""}},{"code":"def calcular_imc(peso, altura):\n    imc = peso / (altura ** 2)\n    return imc\n\n# Ejemplo de uso\npeso = 70  # en kilogramos\naltura = 1.75  # en metros\nprint(f\"El IMC es {calcular_imc(peso, altura):.2f}.\")","id":2,"options":{"fig-height":5,"fig-cap":"","dpi":72,"read-only":"false","out-height":"","warning":"true","comment":"","autorun":"","out-width":"700px","fig-width":7,"message":"true","results":"markup","label":"","output":"true","context":"interactive","classes":""}},{"code":"def es_par(numero):\n    if numero % 2 == 0:\n        return \"par\"\n    else:\n        return \"impar\"\n\n# Ejemplo de uso\nnumero = 7\nprint(f\"El número {numero} es {es_par(numero)}.\")","id":3,"options":{"fig-height":5,"fig-cap":"","dpi":72,"read-only":"false","out-height":"","warning":"true","comment":"","autorun":"","out-width":"700px","fig-width":7,"message":"true","results":"markup","label":"","output":"true","context":"interactive","classes":""}},{"code":"def es_primo(numero):\n    if numero < 2:\n        return False\n    for i in range(2, int(numero**0.5) + 1):\n        if numero % i == 0:\n            return False\n    return True\n\n# Ejemplo de uso\nnumero = 29\nif es_primo(numero):\n    print(f\"El número {numero} es primo.\")\nelse:\n    print(f\"El número {numero} no es primo.\")","id":4,"options":{"fig-height":5,"fig-cap":"","dpi":72,"read-only":"false","out-height":"","warning":"true","comment":"","autorun":"","out-width":"700px","fig-width":7,"message":"true","results":"markup","label":"","output":"true","context":"interactive","classes":""}},{"code":"def colllatz(n):\n    pasos = []\n    while n != 1:\n        pasos.append(n)\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3 * n + 1\n    pasos.append(1)\n    return pasos\n\n# Ejemplo de uso\nnumero = 6\nresultado = colllatz(numero)\nprint(f\"La secuencia de Collatz para el número {numero} es: {resultado}.\")","id":5,"options":{"fig-height":5,"fig-cap":"","dpi":72,"read-only":"false","out-height":"","warning":"true","comment":"","autorun":"","out-width":"700px","fig-width":7,"message":"true","results":"markup","label":"","output":"true","context":"interactive","classes":""}},{"code":"def area_perimetro_rectangulo(base, altura):\n    area = base * altura\n    perimetro = 2 * (base + altura)\n    return area, perimetro\n\n# Ejemplo de uso\nbase = 5\naltura = 3\narea, perimetro = area_perimetro_rectangulo(base, altura)\nprint(f\"El área del rectángulo es {area} y el perímetro es {perimetro}.\")","id":6,"options":{"fig-height":5,"fig-cap":"","dpi":72,"read-only":"false","out-height":"","warning":"true","comment":"","autorun":"","out-width":"700px","fig-width":7,"message":"true","results":"markup","label":"","output":"true","context":"interactive","classes":""}},{"code":"import math\n\ndef area_perimetro_circulo(radio):\n    area = math.pi * radio ** 2\n    perimetro = 2 * math.pi * radio\n    return area, perimetro\n\n# Ejemplo de uso\nradio = 4\narea, perimetro = area_perimetro_circulo(radio)\nprint(f\"El área del círculo es {area:.2f} y el perímetro (circunferencia) es {perimetro:.2f}.\")","id":7,"options":{"fig-height":5,"fig-cap":"","dpi":72,"read-only":"false","out-height":"","warning":"true","comment":"","autorun":"","out-width":"700px","fig-width":7,"message":"true","results":"markup","label":"","output":"true","context":"interactive","classes":""}},{"code":"import numpy as np\nimport matplotlib.pyplot as plt\nimport math\n\ndef resolver_ecuacion_cuadratica(a, b, c):\n    # Calculamos el discriminante\n    discriminante = b**2 - 4*a*c\n    \n    if discriminante < 0:\n        return \"No hay soluciones reales\"\n    elif discriminante == 0:\n        x = -b / (2*a)\n        return f\"Una solución real: x = {x:.2f}\"\n    else:\n        x1 = (-b + math.sqrt(discriminante)) / (2*a)\n        x2 = (-b - math.sqrt(discriminante)) / (2*a)\n        return f\"Dos soluciones reales: x1 = {x1:.2f}, x2 = {x2:.2f}\"\n\ndef graficar_ecuacion_cuadratica(a, b, c):\n    x = np.linspace(-10, 10, 400)  # Generamos un conjunto de valores x desde -10 hasta 10 con 400 puntos\n    y = a * x**2 + b * x + c       # Calculamos los valores y de la ecuación cuadrática para cada x\n\n    plt.figure(figsize=(10, 6))     # Creamos una figura para la gráfica con un tamaño específico\n    plt.plot(x, y, label=f'{a}x² + {b}x + {c}', color='blue')  # Graficamos la curva de la ecuación cuadrática\n    \n    plt.axhline(0, color='red', lw=0.8, ls='--')  # Dibujamos una línea horizontal en y = 0 (eje x)\n    plt.axvline(0, color='red', lw=0.8, ls='--')  # Dibujamos una línea vertical en x = 0 (eje y)\n    \n    plt.title('Gráfica de la Ecuación Cuadrática')  # Agregamos un título a la gráfica\n    plt.xlabel('x')  # Etiquetamos el eje x\n    plt.ylabel('f(x)')  # Etiquetamos el eje y\n    \n    plt.xlim(-5, 5)  # Establecemos los límites del eje x\n    plt.ylim(-1, 5)  # Establecemos los límites del eje y\n    \n    plt.grid()  # Activamos la cuadrícula en la gráfica\n    plt.legend()  # Mostramos la leyenda de la gráfica\n    \n    plt.show()  # Mostramos la gráfica en pantalla\n\n# Ejemplo de uso\na = 1\nb = -3\nc = 2\nresultado = resolver_ecuacion_cuadratica(a, b, c)\nprint(f\"Para la ecuación {a}x² + {b}x + {c} = 0: {resultado}\")\n\n# Graficar la función cuadrática\ngraficar_ecuacion_cuadratica(a, b, c)","id":8,"options":{"fig-height":5,"fig-cap":"","dpi":72,"read-only":"false","out-height":"","warning":"true","comment":"","autorun":"","out-width":"700px","fig-width":7,"message":"true","results":"markup","label":"","output":"true","context":"interactive","classes":""}}];
 
 
 </script>
@@ -422,6 +425,35 @@ globalThis._qpyodideGetInstance = function() {
 
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -565,20 +597,20 @@ globalThis._qpyodideGetInstance = function() {
 <center>
 <img src="../../images/professor.png" width="400">
 </center>
-<p>Este taller está diseñado para profesores de matemáticas de enseñanza media que buscan integrar la programación en Python en su currículo. A través de ejemplos prácticos y ejercicios, los profesores aprenderán cómo pueden utilizar Python para hacer que las matemáticas sean más interactivas y atractivas para los estudiantes.</p>
+<p>Este taller, dirigido a profesores de matemáticas de enseñanza media, busca integrar Python en el currículo para hacer las matemáticas más interactivas y atractivas. A través de ejemplos prácticos, los docentes aprenderán a utilizar Python para enriquecer su enseñanza.</p>
 <section id="objetivos-del-taller" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos-del-taller">🎯 Objetivos del Taller</h2>
 <ul>
-<li>Explorar cómo Python puede mejorar la enseñanza de las matemáticas.</li>
-<li>Desarrollar ejercicios de programación que refuercen conceptos matemáticos.</li>
-<li>Proveer herramientas para resolver problemas matemáticos con Python.</li>
+<li>Utilizar Python para mejorar la enseñanza de matemáticas.</li>
+<li>Crear ejercicios de programación que refuercen conceptos matemáticos.</li>
+<li>Proporcionar herramientas prácticas para resolver problemas matemáticos con Python.</li>
 </ul>
 </section>
 <section id="contexto-y-justificación" class="level2">
 <h2 class="anchored" data-anchor-id="contexto-y-justificación">Contexto y Justificación</h2>
 <p>Integrar Python en la enseñanza de matemáticas permite explorar conceptos de forma dinámica. Su sintaxis clara y numerosas bibliotecas facilitan la demostración de temas, desde aritmética básica hasta cálculo y estadística, enriqueciendo la comprensión matemática de los estudiantes.</p>
-<section id="importancia-de-integrar-python-en-la-educación-media" class="level3">
-<h3 class="anchored" data-anchor-id="importancia-de-integrar-python-en-la-educación-media">Importancia de Integrar Python en la Educación Media</h3>
+<section id="python-en-la-educación-media" class="level3">
+<h3 class="anchored" data-anchor-id="python-en-la-educación-media">Python en la Educación Media</h3>
 <p>Incluir Python en la enseñanza media fomenta el interés en ciencias de la computación y refuerza el aprendizaje matemático. Sus beneficios clave son:</p>
 <ol type="1">
 <li><p><strong>Preparación para el futuro</strong>: Desarrolla competencias prácticas para un mundo tecnológico y orientado a datos.</p></li>
@@ -586,191 +618,237 @@ globalThis._qpyodideGetInstance = function() {
 <li><p><strong>Pensamiento crítico</strong>: Fomenta el razonamiento lógico y la resolución eficiente de problemas matemáticos.</p></li>
 </ol>
 <center>
-<img src="../../images/n01.png" width="700">
+<img src="../../images/n10.png" width="700">
 </center>
 </section>
-<section id="impacto-en-la-educación" class="level3">
-<h3 class="anchored" data-anchor-id="impacto-en-la-educación">Impacto en la Educación</h3>
-<p>La adopción de la programación en la educación ha crecido constantemente, reflejando su relevancia en el aprendizaje moderno.</p>
-<ol type="1">
-<li><p><strong>Globalización de la enseñanza</strong>: El 43% de los países de ingresos altos y el 62% de los países de ingresos medios-altos integran la educación en ciencias de la computación en primaria y secundaria, destacando la importancia de las competencias tecnológicas para el futuro laboral.</p></li>
-<li><p><strong>Distribución geográfica</strong>: Mientras América del Norte y Europa avanzan en la programación en el aula, América Latina y el sudeste asiático implementan programas piloto y currículos nacionales.</p></li>
-<li><p><strong>Desigualdad en el acceso</strong>: Aunque el 91% de los países lanzaron plataformas de aprendizaje online durante la pandemia, solo un cuarto de los estudiantes tuvo acceso, evidenciando barreras en áreas rurales y entre estudiantes de bajos ingresos.</p></li>
-</ol>
+<section id="python-en-el-día-a-día" class="level3">
+<h3 class="anchored" data-anchor-id="python-en-el-día-a-día">Python en el Día a Día</h3>
 <center>
-<img src="../../images/n02.png" width="700">
+<img src="../../images/n07.png" width="600">
 </center>
-</section>
-<section id="demanda-en-el-mercado-laboral" class="level3">
-<h3 class="anchored" data-anchor-id="demanda-en-el-mercado-laboral">Demanda en el Mercado Laboral</h3>
-<p>Las habilidades en programación y matemáticas son esenciales en la educación y el mercado laboral. Las tendencias clave incluyen:</p>
-<ol type="1">
-<li><p><strong>Crecimiento en desarrollo de software</strong>: El U.S. Bureau of Labor Statistics proyecta un crecimiento del 22% en la demanda de desarrolladores de software entre 2020 y 2030.</p></li>
-<li><p><strong>Demanda de habilidades matemáticas</strong>: Según LinkedIn, puestos como ciencia de datos y análisis financiero crecen a un 33% anual.</p></li>
-<li><p><strong>Salarios competitivos</strong>: Los programadores en EE. UU. ganan un promedio de $110,000 al año, mientras que matemáticos y analistas cuantitativos ganan alrededor de $100,000.</p></li>
-</ol>
-<center>
-<img src="../../images/n03.png" width="500">
-</center>
-</section>
-<section id="perspectiva-de-género" class="level3">
-<h3 class="anchored" data-anchor-id="perspectiva-de-género">Perspectiva de Género</h3>
-<p>La disparidad de género en programación y matemáticas es un desafío persistente:</p>
-<ol type="1">
-<li><p><strong>Programación</strong>: Solo el 21% de los puestos en informática son ocupados por mujeres, aunque hay crecientes iniciativas para reducir esta brecha.</p></li>
-<li><p><strong>Matemáticas</strong>: Aunque el 47% de los estudiantes de pregrado son mujeres, solo el 29% de los puestos académicos permanentes las incluyen, reflejando la necesidad de avanzar en la equidad de género.</p></li>
-</ol>
-<center>
-<img src="../../images/n04.png" width="300">
-</center>
-</section>
-<section id="python-y-las-matemáticas-aplicadas" class="level3">
-<h3 class="anchored" data-anchor-id="python-y-las-matemáticas-aplicadas">Python y las Matemáticas Aplicadas</h3>
-<p>Python es esencial en matemáticas aplicadas y ciencia de datos por varias razones:</p>
-<ol type="1">
-<li><p><strong>Flexibilidad</strong>: Bibliotecas como NumPy, Pandas, Matplotlib y SymPy facilitan cálculos complejos y visualizaciones eficientes.</p></li>
-<li><p><strong>Machine learning</strong>: El 85% de los científicos de datos considera que las matemáticas son cruciales para el desarrollo de algoritmos, y Python es el lenguaje preferido.</p></li>
-<li><p><strong>Visualización de datos</strong>: Permite gestionar grandes volúmenes de datos y crear visualizaciones interactivas para un análisis más efectivo.</p></li>
-</ol>
-<center>
-<img src="../../images/n05.png" width="300">
-</center>
+<div id="e689a7ad" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="1">
+<div id="anzmxubsbk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#anzmxubsbk table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#anzmxubsbk thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#anzmxubsbk p { margin: 0; padding: 0; }
+ #anzmxubsbk .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 3px; border-top-color: #D5D5D5; border-right-style: solid; border-right-width: 3px; border-right-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 3px; border-bottom-color: #D5D5D5; border-left-style: solid; border-left-width: 3px; border-left-color: #D5D5D5; }
+ #anzmxubsbk .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #anzmxubsbk .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #anzmxubsbk .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #anzmxubsbk .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #anzmxubsbk .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; }
+ #anzmxubsbk .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #anzmxubsbk .gt_col_heading { color: #FFFFFF; background-color: #004D80; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #anzmxubsbk .gt_column_spanner_outer { color: #FFFFFF; background-color: #004D80; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #anzmxubsbk .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #anzmxubsbk .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #anzmxubsbk .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #anzmxubsbk .gt_spanner_row { border-bottom-style: hidden; }
+ #anzmxubsbk .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #anzmxubsbk .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; vertical-align: middle; }
+ #anzmxubsbk .gt_from_md> :first-child { margin-top: 0; }
+ #anzmxubsbk .gt_from_md> :last-child { margin-bottom: 0; }
+ #anzmxubsbk .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #89D3FE; border-left-style: solid; border-left-width: 1px; border-left-color: #89D3FE; border-right-style: solid; border-right-width: 1px; border-right-color: #89D3FE; vertical-align: middle; overflow-x: hidden; }
+ #anzmxubsbk .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #5F5F5F; padding-left: 5px; padding-right: 5px; }
+ #anzmxubsbk .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #anzmxubsbk .gt_row_group_first td { border-top-width: 2px; }
+ #anzmxubsbk .gt_row_group_first th { border-top-width: 2px; }
+ #anzmxubsbk .gt_striped { background-color: #F4F4F4; }
+ #anzmxubsbk .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; }
+ #anzmxubsbk .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #anzmxubsbk .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #anzmxubsbk .gt_left { text-align: left; }
+ #anzmxubsbk .gt_center { text-align: center; }
+ #anzmxubsbk .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #anzmxubsbk .gt_font_normal { font-weight: normal; }
+ #anzmxubsbk .gt_font_bold { font-weight: bold; }
+ #anzmxubsbk .gt_font_italic { font-style: italic; }
+ #anzmxubsbk .gt_super { font-size: 65%; }
+ #anzmxubsbk .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #anzmxubsbk .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings">
+<th id="Aspecto" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Aspecto</th>
+<th id="Detalle" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Detalle</th>
+<th id="Fuente" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Fuente</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left">Impacto en la Educación</td>
+<td class="gt_row gt_left">50% de países altos y 60% medios-altos han integrado ciencias de la computación.</td>
+<td class="gt_row gt_left">OCDE</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped"></td>
+<td class="gt_row gt_left gt_striped">Solo el 43% de estudiantes en países bajos tienen acceso a Internet en la escuela.</td>
+<td class="gt_row gt_left gt_striped">UNESCO</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left">Demanda Laboral</td>
+<td class="gt_row gt_left">22% de aumento proyectado en desarrolladores de software.</td>
+<td class="gt_row gt_left">U.S. Bureau of Labor Statistics</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped"></td>
+<td class="gt_row gt_left gt_striped">33% de crecimiento anual en científicos de datos y analistas financieros.</td>
+<td class="gt_row gt_left gt_striped">LinkedIn</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left">Perspectiva de Género</td>
+<td class="gt_row gt_left">21% de puestos en informática son ocupados por mujeres.</td>
+<td class="gt_row gt_left">OCDE</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped"></td>
+<td class="gt_row gt_left gt_striped">Mujeres en matemáticas: 47% de estudiantes - solo 29% en puestos académicos.</td>
+<td class="gt_row gt_left gt_striped">AAUW</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left">Matemáticas Aplicadas</td>
+<td class="gt_row gt_left">Flexibilidad en cálculos con NumPy y Pandas.</td>
+<td class="gt_row gt_left">NumFOCUS, Stack Overflow</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped"></td>
+<td class="gt_row gt_left gt_striped">85% de científicos de datos prefieren Python para machine learning.</td>
+<td class="gt_row gt_left gt_striped">Kaggle, Stack Overflow</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
 </section>
 </section>
 <section id="ejercicios-y-ejemplos-prácticos" class="level2">
 <h2 class="anchored" data-anchor-id="ejercicios-y-ejemplos-prácticos">Ejercicios y Ejemplos Prácticos</h2>
-<section id="aritmética-y-python" class="level3">
-<h3 class="anchored" data-anchor-id="aritmética-y-python">🔢 Aritmética y Python</h3>
-<p>Estos ejercicios están diseñados para ayudar a los estudiantes a practicar conceptos aritméticos básicos utilizando Python.</p>
-<section id="verificar-si-un-número-es-par-o-impar" class="level4">
-<h4 class="anchored" data-anchor-id="verificar-si-un-número-es-par-o-impar">1. Verificar si un Número es Par o Impar</h4>
-<p>Este ejercicio enseña a los estudiantes a usar el operador módulo (<code>%</code>) para determinar si un número es divisible por 2, clasificándolo como “par” o “impar”.</p>
+<section id="básicos" class="level3">
+<h3 class="anchored" data-anchor-id="básicos">✅ Básicos</h3>
+<section id="conversión-de-fahrenheit-a-celsius" class="level4">
+<h4 class="anchored" data-anchor-id="conversión-de-fahrenheit-a-celsius">1. Conversión de Fahrenheit a Celsius</h4>
+<p>Este ejercicio enseña a los estudiantes a utilizar la fórmula de conversión para transformar temperaturas de Fahrenheit a Celsius. La fórmula es:</p>
+<p><span class="math display">\[ C = \frac{(F - 32) \times 5}{9}\]</span></p>
 <ul>
-<li><a href="https://es.wikipedia.org/wiki/N%C3%BAmeros_pares_e_impares">Número par e impar - Wikipedia</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Grado_Fahrenheit#Conversi%C3%B3n_a_grados_Celsius">Conversión de grados Fahrenheit a Celsius - Wikipedia</a></li>
 </ul>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-el-promedio-de-una-lista-de-números" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-el-promedio-de-una-lista-de-números">2. Calcular el Promedio de una Lista de Números</h4>
-<p>Aquí se muestra cómo calcular el promedio (media aritmética) de una lista de números, sumando los elementos y dividiéndolos por la cantidad de elementos.</p>
+<section id="cálculo-del-índice-de-masa-corporal-imc" class="level4">
+<h4 class="anchored" data-anchor-id="cálculo-del-índice-de-masa-corporal-imc">2. Cálculo del Índice de Masa Corporal (IMC)</h4>
+<p>Este ejercicio enseña a los estudiantes a calcular el IMC utilizando la fórmula:</p>
+<p><span class="math display">\[ IMC = \frac{peso \, (kg)}{altura^2 \, (m^2)}\]</span></p>
 <ul>
-<li><a href="https://es.wikipedia.org/wiki/Media_aritm%C3%A9tica">Media aritmética - Wikipedia</a></li>
+<li><a href="https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal">Índice de Masa Corporal - Wikipedia</a></li>
 </ul>
 <div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="mínimo-común-múltiplo-mcm" class="level4">
-<h4 class="anchored" data-anchor-id="mínimo-común-múltiplo-mcm">3. Mínimo Común Múltiplo (MCM)</h4>
-<p>Este ejercicio utiliza el concepto de Mínimo Común Múltiplo, calculando el menor número que es múltiplo común de dos números dados.</p>
+<section id="verificar-si-un-número-es-par-o-impar" class="level4">
+<h4 class="anchored" data-anchor-id="verificar-si-un-número-es-par-o-impar">3. Verificar si un Número es Par o Impar</h4>
+<p>Este ejercicio enseña a los estudiantes a usar el operador módulo (<code>%</code>) para determinar si un número es divisible por 2, clasificándolo como “par” o “impar”.</p>
 <ul>
-<li><a href="https://es.wikipedia.org/wiki/M%C3%ADnimo_com%C3%BAn_m%C3%BAltiplo">Mínimo común múltiplo - Wikipedia</a></li>
+<li><a href="https://es.wikipedia.org/wiki/N%C3%BAmeros_pares_e_impares">Número par e impar - Wikipedia</a></li>
 </ul>
 <div id="qpyodide-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-el-máximo-común-divisor-mcd" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-el-máximo-común-divisor-mcd">4. Calcular el Máximo Común Divisor (MCD)</h4>
-<p>Aquí se utiliza el algoritmo de Euclides para encontrar el mayor número que divide exactamente a dos números, enseñando un método eficiente para encontrar el MCD.</p>
+</section>
+<section id="aritmética" class="level3">
+<h3 class="anchored" data-anchor-id="aritmética">🔢 Aritmética</h3>
+<section id="verificar-si-un-número-es-primo" class="level4">
+<h4 class="anchored" data-anchor-id="verificar-si-un-número-es-primo">1. Verificar si un Número es Primo</h4>
+<p>Este ejercicio enseña a los estudiantes a verificar si un número es primo. Un número primo es un número mayor que 1 que solo tiene dos divisores: 1 y él mismo.</p>
 <ul>
-<li><a href="https://es.wikipedia.org/wiki/M%C3%A1ximo_com%C3%BAn_divisor">Máximo común divisor - Wikipedia</a></li>
+<li><a href="https://es.wikipedia.org/wiki/N%C3%BAmero_primo">Número primo - Wikipedia</a></li>
 </ul>
 <div id="qpyodide-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-el-factorial-de-un-número" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-el-factorial-de-un-número">5. Calcular el Factorial de un Número</h4>
-<p>El ejercicio muestra cómo calcular el factorial de un número, que es el producto de todos los números enteros positivos menores o iguales a ese número.</p>
+<section id="conjetura-de-collatz" class="level4">
+<h4 class="anchored" data-anchor-id="conjetura-de-collatz">2. Conjetura de Collatz</h4>
+<p>Este ejercicio enseña a los estudiantes sobre la conjetura de Collatz, que sugiere que al tomar cualquier número entero positivo y aplicar la siguiente secuencia, se llegará eventualmente al número 1:</p>
+<ol type="a">
+<li>Si el número es par, se divide entre 2.</li>
+<li>Si el número es impar, se multiplica por 3 y se le suma 1.</li>
+</ol>
 <ul>
-<li><a href="https://es.wikipedia.org/wiki/Factorial">Factorial - Wikipedia</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Conjetura_de_Collatz">Conjetura de Collatz - Wikipedia</a></li>
 </ul>
 <div id="qpyodide-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<hr>
 </section>
 </section>
-<section id="geometría-y-python" class="level3">
-<h3 class="anchored" data-anchor-id="geometría-y-python">📐 Geometría y Python</h3>
-<p>Estos ejercicios permiten a los estudiantes interactuar con conceptos geométricos mediante Python.</p>
-<section id="calcular-el-área-y-perímetro-de-un-rectángulo" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-el-área-y-perímetro-de-un-rectángulo">1. Calcular el Área y Perímetro de un Rectángulo</h4>
-<p>Este ejercicio muestra cómo calcular el área y el perímetro de un rectángulo usando las fórmulas básicas: multiplicar largo por ancho para el área y sumar dos veces la suma de largo y ancho para el perímetro.</p>
+<section id="geometría" class="level3">
+<h3 class="anchored" data-anchor-id="geometría">📐 Geometría</h3>
+<section id="área-y-perímetro-de-un-rectángulo" class="level4">
+<h4 class="anchored" data-anchor-id="área-y-perímetro-de-un-rectángulo">1. Área y Perímetro de un Rectángulo</h4>
+<p>Este ejercicio enseña a los estudiantes a calcular el área y el perímetro de un rectángulo utilizando las siguientes fórmulas:</p>
+<ol type="a">
+<li><strong>Área</strong>: <span class="math inline">\(A = base \times altura\)</span></li>
+<li><strong>Perímetro</strong>: <span class="math inline">\(P = 2 \times (base + altura)\)</span></li>
+</ol>
 <ul>
 <li><a href="https://es.wikipedia.org/wiki/Rect%C3%A1ngulo">Rectángulo - Wikipedia</a></li>
 </ul>
 <div id="qpyodide-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-el-volumen-de-un-cilindro" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-el-volumen-de-un-cilindro">2. Calcular el Volumen de un Cilindro</h4>
-<p>En este ejercicio, se calcula el volumen de un cilindro utilizando la fórmula: π × radio² × altura, introduciendo a los estudiantes al concepto de volumen en cuerpos geométricos.</p>
+<section id="área-y-perímetro-de-un-círculo" class="level4">
+<h4 class="anchored" data-anchor-id="área-y-perímetro-de-un-círculo">2. Área y Perímetro de un Círculo</h4>
+<p>Este ejercicio enseña a los estudiantes a calcular el área y el perímetro (circunferencia) de un círculo utilizando las siguientes fórmulas:</p>
+<ol type="a">
+<li><strong>Área</strong>: <span class="math inline">\(A = \pi \times radio^2\)</span></li>
+<li><strong>Perímetro (Circunferencia)</strong>: <span class="math inline">\(C = 2 \times \pi \times radio\)</span></li>
+</ol>
 <ul>
-<li><a href="https://es.wikipedia.org/wiki/Cilindro_(geometr%C3%ADa)">Cilindro - Wikipedia</a></li>
+<li><a href="https://es.wikipedia.org/wiki/C%C3%ADrculo">Círculo - Wikipedia</a></li>
 </ul>
 <div id="qpyodide-insertion-location-7"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-el-área-de-un-triángulo" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-el-área-de-un-triángulo">3. Calcular el Área de un Triángulo</h4>
-<p>Aquí se calcula el área de un triángulo utilizando la fórmula básica: (base × altura) / 2, ayudando a los estudiantes a entender cómo se mide el espacio dentro de un triángulo.</p>
+</section>
+<section id="álgebra" class="level3">
+<h3 class="anchored" data-anchor-id="álgebra">🔤 Álgebra</h3>
+<section id="resolución-y-gráfica-de-una-ecuación-cuadrática" class="level4">
+<h4 class="anchored" data-anchor-id="resolución-y-gráfica-de-una-ecuación-cuadrática">1. Resolución y Gráfica de una Ecuación Cuadrática</h4>
+<p>Este ejercicio enseña a los estudiantes a resolver ecuaciones cuadráticas de la forma:</p>
+<p><span class="math display">\[ ax^2 + bx + c = 0 \]</span></p>
+<p>Utilizando la fórmula cuadrática:</p>
+<p><span class="math display">\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]</span></p>
+<p>Y a graficar la función cuadrática.</p>
 <ul>
-<li><a href="https://es.wikipedia.org/wiki/Tri%C3%A1ngulo">Triángulo - Wikipedia</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_cuadr%C3%A1tica">Ecuación cuadrática - Wikipedia</a></li>
 </ul>
 <div id="qpyodide-insertion-location-8"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-el-área-de-un-círculo" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-el-área-de-un-círculo">4. Calcular el Área de un Círculo</h4>
-<p>Aquí se calcula el área de un círculo con la fórmula: π × radio², lo que introduce a los estudiantes al uso del número π y a los conceptos de medición en figuras circulares.</p>
-<ul>
-<li><a href="https://es.wikipedia.org/wiki/C%C3%ADrculo">Círculo - Wikipedia</a></li>
-</ul>
-<div id="qpyodide-insertion-location-9"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calcular-la-distancia-entre-dos-puntos" class="level4">
-<h4 class="anchored" data-anchor-id="calcular-la-distancia-entre-dos-puntos">5. Calcular la Distancia entre dos Puntos</h4>
-<p>Este ejercicio utiliza la fórmula de la distancia euclidiana para calcular la distancia entre dos puntos en un plano, reforzando el concepto de coordenadas y medidas en la geometría.</p>
-<ul>
-<li><a href="https://es.wikipedia.org/wiki/Distancia_euclidiana">Distancia euclidiana - Wikipedia</a></li>
-</ul>
-<div id="qpyodide-insertion-location-10"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-</section>
-</section>
-<section id="implementación-en-el-aula-con-inteligencia-artificial-y-chatgpt" class="level2">
-<h2 class="anchored" data-anchor-id="implementación-en-el-aula-con-inteligencia-artificial-y-chatgpt">Implementación en el Aula con Inteligencia Artificial y ChatGPT</h2>
-<center>
-<img src="../../images/n06.png" width="500">
-</center>
-<p><br></p>
-<p>La inteligencia artificial (IA), como <a href="https://chat.openai.com/">ChatGPT</a>, está revolucionando la enseñanza de matemáticas y programación, especialmente en la educación secundaria. Sus beneficios incluyen:</p>
-<ol type="1">
-<li><strong>Aprendizaje personalizado</strong>: La IA ofrece respuestas adaptadas a cada estudiante, permitiendo un aprendizaje al ritmo del alumno y abordando necesidades específicas.</li>
-<li><strong>Retroalimentación instantánea</strong>: Ayuda a corregir errores en tiempo real, lo que mejora la enseñanza de programación y refuerza la comprensión de conceptos matemáticos.</li>
-<li><strong>Acceso flexible</strong>: Facilita el aprendizaje desde cualquier lugar con conexión a internet, eliminando barreras geográficas y fomentando la inclusión.</li>
-<li><strong>Optimización del tiempo docente</strong>: La IA se encarga de tareas rutinarias, liberando tiempo para que los profesores se centren en temas más complejos y creativos.</li>
-</ol>
-<p><strong>Tips para Mejorar su Uso como Docente</strong></p>
-<ul>
-<li><strong>Definir objetivos claros</strong>: Antes de usar ChatGPT en clase, establezca qué conceptos o habilidades desea que los estudiantes desarrollen.</li>
-<li><strong>Fomentar la exploración</strong>: Invite a los estudiantes a hacer preguntas diversas y experimentar con la IA para encontrar múltiples soluciones a un problema.</li>
-<li><strong>Usar ejemplos prácticos</strong>: Proporcione problemas matemáticos o ejercicios de programación y pida a los estudiantes que consulten a ChatGPT para ver diferentes enfoques de resolución.</li>
-<li><strong>Supervisión activa</strong>: Aunque ChatGPT es una herramienta útil, supervise las interacciones para asegurar la comprensión y corregir posibles errores.</li>
-<li><strong>Promover el pensamiento crítico</strong>: Anime a los estudiantes a evaluar las respuestas de ChatGPT y reflexionar sobre su precisión y aplicabilidad en cada contexto.</li>
-</ul>
 </section>
 <section id="conclusiones" class="level2">
 <h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
-<p>Integrar Python en la enseñanza de matemáticas moderniza y enriquece el proceso de aprendizaje. Su sintaxis clara y poderosas bibliotecas permiten explorar conceptos de manera interactiva, facilitando la comprensión.</p>
-<section id="puntos-clave" class="level3">
-<h3 class="anchored" data-anchor-id="puntos-clave">Puntos Clave:</h3>
+<p>La integración de Python en la enseñanza de matemáticas moderniza y enriquece el aprendizaje, facilitando la comprensión de conceptos a través de su sintaxis clara y poderosas bibliotecas.</p>
+<p><strong>Puntos Clave</strong>:</p>
 <ol type="1">
-<li><strong>Preparación para el futuro</strong>: Python desarrolla habilidades prácticas esenciales para un mundo tecnológico.</li>
-<li><strong>Reducción de desigualdades</strong>: Aún hay desafíos en el acceso global y equidad de género, por lo que es crucial abordar estas brechas.</li>
-<li><strong>Python y Matemáticas</strong>: Python es una herramienta clave en la enseñanza de matemáticas, especialmente en la educación secundaria.</li>
-<li><strong>IA como apoyo en el aula</strong>: Herramientas como ChatGPT personalizan el aprendizaje y ofrecen retroalimentación inmediata, optimizando el tiempo del docente.</li>
+<li><p><strong>Preparación para el futuro</strong>: Python desarrolla habilidades prácticas esenciales para un mundo tecnológico y laboral en constante cambio.</p></li>
+<li><p><strong>Reducción de desigualdades</strong>: Es crucial abordar las brechas en el acceso a la tecnología y en la equidad de género para garantizar una educación matemática inclusiva.</p></li>
+<li><p><strong>Python y Matemáticas</strong>: Como herramienta clave en la enseñanza secundaria, Python permite presentar temas complejos de manera accesible y atractiva, fomentando un aprendizaje significativo.</p></li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled" title="Desafío para Profesores:">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
@@ -793,7 +871,6 @@ Desafío para Profesores:
 </blockquote>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

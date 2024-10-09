@@ -231,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"def celsius_a_fahrenheit(celsius):\n    return (celsius * 9/5) + 32\n\n# Ejemplo de uso\ncelsius = 25\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")","id":1},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"celsius = 0\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")\n\ncelsius = -10\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")\n\ncelsius = 100\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")","id":2},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"def calcular_imc(peso, altura):\n    return peso / (altura ** 2)\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")","id":3},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"peso = 80  # kg\naltura = 1.80  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")\n\npeso = 60  # kg\naltura = 1.60  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")\n\npeso = 90  # kg\naltura = 1.70  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")","id":4},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"def es_bisiesto(anio):\n    if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):\n        return f\"{anio} es un año bisiesto\"\n    else:\n        return f\"{anio} no es un año bisiesto\"\n\n# Ejemplo de uso\nanio = 2024\nprint(es_bisiesto(anio))","id":5},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"anio = 1900\nprint(es_bisiesto(anio))\n\nanio = 2000\nprint(es_bisiesto(anio))\n\nanio = 2023\nprint(es_bisiesto(anio))","id":6},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"def calculadora(operacion, num1, num2):\n    if operacion == '+':\n        return f\"Resultado: {num1 + num2}\"\n    elif operacion == '-':\n        return f\"Resultado: {num1 - num2}\"\n    elif operacion == '*':\n        return f\"Resultado: {num1 * num2}\"\n    elif operacion == '/':\n        if num2 != 0:\n            return f\"Resultado: {num1 / num2}\"\n        else:\n            return \"Error: División por cero\"\n    else:\n        return \"Operación no válida\"\n\n# Ejemplo de uso\noperacion = '+'\nnum1 = 10\nnum2 = 5\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")","id":7},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"operacion = '-'\nnum1 = 20\nnum2 = 10\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")\n\noperacion = '*'\nnum1 = 3\nnum2 = 4\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")\n\noperacion = '/'\nnum1 = 10\nnum2 = 2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")\n\noperacion = '/'\nnum1 = 10\nnum2 = 0\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")\n\noperacion = '+-'\nnum1 = 5\nnum2 = 7\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")","id":8},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"def es_primo(n):\n    if n <= 1:\n        return f\"{n} no es un número primo\"\n    for i in range(2, n):\n        if n % i == 0:\n            return f\"{n} no es un número primo\"\n    return f\"{n} es un número primo\"\n\n# Ejemplo de uso\nnumero = 29\nprint(es_primo(numero))","id":9},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"numero = 15\nprint(es_primo(numero))\n\nnumero = 2\nprint(es_primo(numero))\n\nnumero = 17\nprint(es_primo(numero))","id":10},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"def conjetura_de_collatz(n):\n    resultado = []\n    while n != 1:\n        resultado.append(n)\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3 * n + 1\n    resultado.append(n)\n    return resultado\n\n# Ejemplo de uso\nnumero = 6\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))","id":11},{"options":{"message":"true","read-only":"false","classes":"","warning":"true","context":"interactive","dpi":72,"output":"true","label":"","autorun":"","results":"markup","comment":"","fig-cap":"","out-width":"700px","fig-width":7,"fig-height":5,"out-height":""},"code":"numero = 7\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))\n\nnumero = 15\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))\n\nnumero = 27\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))","id":12}];
+globalThis.qpyodideCellDetails = [{"code":"def celsius_a_fahrenheit(celsius):\n    return (celsius * 9/5) + 32\n\n# Ejemplo de uso\ncelsius = 25\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")","id":1,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"celsius = 0\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")\n\ncelsius = -10\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")\n\ncelsius = 100\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")","id":2,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"def calcular_imc(peso, altura):\n    return peso / (altura ** 2)\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")","id":3,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"peso = 80  # kg\naltura = 1.80  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")\n\npeso = 60  # kg\naltura = 1.60  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")\n\npeso = 90  # kg\naltura = 1.70  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")","id":4,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"def verificar_paridad(numero):\n    if numero % 2 == 0:  # Verifica si el número es par\n        print(f\"El número {numero} es par.\")\n    else:  # Si no es par, entonces es impar\n        print(f\"El número {numero} es impar.\")\n\n# Ejemplo de uso\nnumero = 7\nverificar_paridad(numero)","id":5,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"numeros_a_probar = [10, 15, 22, 33, 44]  # Lista de números a verificar\n\nfor numero in numeros_a_probar:\n    verificar_paridad(numero)","id":6,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"def es_bisiesto(anio):\n    if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):\n        return f\"{anio} es un año bisiesto\"\n    else:\n        return f\"{anio} no es un año bisiesto\"\n\n# Ejemplo de uso\nanio = 2024\nprint(es_bisiesto(anio))","id":7,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"anio = 1900\nprint(es_bisiesto(anio))\n\nanio = 2000\nprint(es_bisiesto(anio))\n\nanio = 2023\nprint(es_bisiesto(anio))","id":8,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"def calculadora(operacion, num1, num2):\n    if operacion == '+':\n        return f\"Resultado: {num1 + num2}\"\n    elif operacion == '-':\n        return f\"Resultado: {num1 - num2}\"\n    elif operacion == '*':\n        return f\"Resultado: {num1 * num2}\"\n    elif operacion == '/':\n        if num2 != 0:\n            return f\"Resultado: {num1 / num2}\"\n        else:\n            return \"Error: División por cero\"\n    else:\n        return \"Operación no válida\"\n\n# Ejemplo de uso\noperacion = '+'\nnum1 = 10\nnum2 = 5\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")","id":9,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"operacion = '-'\nnum1 = 20\nnum2 = 10\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")\n\noperacion = '*'\nnum1 = 3\nnum2 = 4\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")\n\noperacion = '/'\nnum1 = 10\nnum2 = 2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")\n\noperacion = '/'\nnum1 = 10\nnum2 = 0\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")\n\noperacion = '+-'\nnum1 = 5\nnum2 = 7\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}\")","id":10,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"def es_primo(n):\n    if n <= 1:\n        return f\"{n} no es un número primo\"\n    for i in range(2, n):\n        if n % i == 0:\n            return f\"{n} no es un número primo\"\n    return f\"{n} es un número primo\"\n\n# Ejemplo de uso\nnumero = 29\nprint(es_primo(numero))","id":11,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"numero = 15\nprint(es_primo(numero))\n\nnumero = 2\nprint(es_primo(numero))\n\nnumero = 17\nprint(es_primo(numero))","id":12,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"def conjetura_de_collatz(n):\n    resultado = []\n    while n != 1:\n        resultado.append(n)\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3 * n + 1\n    resultado.append(n)\n    return resultado\n\n# Ejemplo de uso\nnumero = 6\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))","id":13,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}},{"code":"numero = 7\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))\n\nnumero = 15\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))\n\nnumero = 27\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))","id":14,"options":{"fig-cap":"","output":"true","message":"true","classes":"","autorun":"","label":"","context":"interactive","read-only":"false","comment":"","fig-height":5,"out-height":"","warning":"true","fig-width":7,"results":"markup","dpi":72,"out-width":"700px"}}];
 
 
 </script>
@@ -731,16 +731,15 @@ Desafío:
 <p>Estos ejemplos permiten a los estudiantes ver cómo la función calcula el IMC para diferentes pesos y alturas, reforzando su comprensión de las operaciones matemáticas y el uso de funciones en Python.</p>
 </section>
 </section>
-<section id="verificación-de-año-bisiesto" class="level2">
-<h2 class="anchored" data-anchor-id="verificación-de-año-bisiesto">📅 Verificación de Año Bisiesto</h2>
-<p>En este ejercicio, vamos a crear un programa que determine si un año es <a href="https://es.wikipedia.org/wiki/A%C3%B1o_bisiesto">bisiesto</a>. Este ejercicio es excelente para practicar el uso de operadores lógicos y condicionales en Python.</p>
+<section id="verificación-de-números-pares-e-impares" class="level2">
+<h2 class="anchored" data-anchor-id="verificación-de-números-pares-e-impares">2️⃣ Verificación de Números Pares e Impares</h2>
+<p>Un programa para verificar si un número es par o impar. Este ejercicio es útil para practicar operaciones matemáticas y el uso de funciones en Python.</p>
 <section id="contexto-2" class="level3">
 <h3 class="anchored" data-anchor-id="contexto-2">Contexto</h3>
-<p>Un año bisiesto es un año que tiene 366 días en lugar de los 365 días habituales. Este día adicional se añade en febrero, que tiene 29 días en lugar de 28. Las reglas para determinar si un año es bisiesto son las siguientes:</p>
-<ol type="1">
-<li>Un año es bisiesto si es divisible por 4.</li>
-<li>Sin embargo, si el año es divisible por 100, no es un año bisiesto a menos que también sea divisible por 400.</li>
-</ol>
+<p>Un número es considerado par si es divisible por 2, y es impar si no lo es. La condición para verificar esto se puede expresar como:</p>
+<p><span class="math display">\[
+\text{Número es par} \iff \text{Número} \% 2 = 0
+\]</span></p>
 </section>
 <section id="objetivos-del-ejercicio-2" class="level3">
 <h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-2">Objetivos del Ejercicio</h3>
@@ -756,56 +755,56 @@ Desafío:
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>El objetivo de este ejercicio es escribir una función en Python que determine si un año es bisiesto o no, utilizando las reglas mencionadas anteriormente.</p>
+<p>El objetivo de este ejercicio es escribir una función en Python que determine si un número es par o impar y probar la función con ejemplos.</p>
 </div>
 </div>
 </div>
 <ol type="1">
-<li><strong>Definir una función</strong>: Crearemos una función llamada <code>es_bisiesto</code> que tome un parámetro: el año (<code>anio</code>) a verificar.</li>
-<li><strong>Implementar la lógica</strong>: Usaremos operadores lógicos (<code>and</code>, <code>or</code>) y estructuras condicionales (<code>if</code>, <code>else</code>) para determinar si el año es bisiesto.</li>
-<li><strong>Probar la función</strong>: Probaremos la función con diferentes años para asegurarnos de que funcione correctamente.</li>
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>verificar_paridad</code> que tome un parámetro: el número (<code>numero</code>).</li>
+<li><strong>Implementar la verificación</strong>: Usaremos el operador módulo (<code>%</code>) para verificar si el número es par o impar y mostrar el resultado correspondiente.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con varios números y mostraremos los resultados.</li>
 </ol>
 </section>
-<section id="código-para-verificación-de-año-bisiesto" class="level3">
-<h3 class="anchored" data-anchor-id="código-para-verificación-de-año-bisiesto">Código para Verificación de Año Bisiesto</h3>
+<section id="código-para-la-verificación-de-números-pares-e-impares" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-la-verificación-de-números-pares-e-impares">Código para la Verificación de Números Pares e Impares</h3>
 <div id="qpyodide-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="explicación-del-código-2" class="level3">
 <h3 class="anchored" data-anchor-id="explicación-del-código-2">Explicación del Código</h3>
-<p>Este código define una función llamada <code>es_bisiesto</code> que realiza lo siguiente:</p>
 <ol type="1">
 <li><strong>Parámetro de Entrada</strong>:
 <ul>
-<li><code>anio</code>: Un entero que representa el año a verificar.</li>
+<li><code>numero</code>: Un número entero que se desea verificar.</li>
 </ul></li>
-<li><strong>Lógica para Determinar Año Bisiesto</strong>:
+<li><strong>Verificación de Paridad</strong>:
 <ul>
-<li>Utiliza operadores lógicos y condicionales para verificar las reglas de un año bisiesto.</li>
-<li><strong>Regla 1</strong>: <code>(anio % 4 == 0 and anio % 100 != 0)</code> - Un año es bisiesto si es divisible por 4 y no es divisible por 100.</li>
-<li><strong>Regla 2</strong>: <code>(anio % 400 == 0)</code> - Un año es bisiesto si es divisible por 400.</li>
-<li>Si alguna de las reglas es verdadera, la función devuelve <code>True</code>, indicando que el año es bisiesto. De lo contrario, devuelve <code>False</code>.</li>
+<li>La función utiliza el operador módulo <code>%</code> para determinar si el número es divisible por 2. Si es par, se imprime un mensaje indicando que el número es par; de lo contrario, se imprime que es impar.</li>
 </ul></li>
 </ol>
 </section>
 <section id="ejemplo-de-uso-2" class="level3">
 <h3 class="anchored" data-anchor-id="ejemplo-de-uso-2">Ejemplo de Uso</h3>
-<p>El código de ejemplo muestra cómo usar la función <code>es_bisiesto</code> para verificar si el año 2024 es bisiesto. Al ejecutar este ejemplo, se imprimirá <code>2024 es un año bisiesto</code>.</p>
+<p>El código de ejemplo muestra cómo usar la función <code>verificar_paridad</code> con el número 7. Al ejecutar este ejemplo, se imprimirá <code>El número 7 es impar.</code>.</p>
 </section>
 <section id="prueba-y-modificación-2" class="level3">
 <h3 class="anchored" data-anchor-id="prueba-y-modificación-2">Prueba y Modificación</h3>
-<p>Los estudiantes pueden modificar el valor de <code>anio</code> para probar diferentes años y explorar cómo funciona la función. Por ejemplo:</p>
+<p>Los estudiantes pueden modificar el valor de <code>numero</code> para probar diferentes combinaciones y explorar cómo funciona la función. Por ejemplo:</p>
 <div id="qpyodide-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>Estos ejemplos permiten a los estudiantes ver cómo la función verifica si diferentes años son bisiestos, reforzando su comprensión del uso de operadores lógicos y estructuras condicionales en Python. Este ejercicio proporciona una excelente oportunidad para practicar la implementación de reglas lógicas y condicionales en Python, y es una forma efectiva de entender cómo aplicar reglas matemáticas para resolver problemas del mundo real.</p>
+<p>Estos ejemplos permiten a los estudiantes ver cómo la función verifica la paridad de diferentes números, reforzando su comprensión de las operaciones matemáticas y el uso de funciones en Python.</p>
 </section>
 </section>
-<section id="calculadora-básica" class="level2">
-<h2 class="anchored" data-anchor-id="calculadora-básica">🧮 Calculadora Básica</h2>
-<p>En este ejercicio, vamos a crear una simple calculadora que puede realizar operaciones básicas como suma, resta, multiplicación y división. Esta actividad es ideal para que los principiantes practiquen el uso de funciones, operadores aritméticos y estructuras condicionales en Python.</p>
+<section id="verificación-de-año-bisiesto" class="level2">
+<h2 class="anchored" data-anchor-id="verificación-de-año-bisiesto">📅 Verificación de Año Bisiesto</h2>
+<p>En este ejercicio, vamos a crear un programa que determine si un año es <a href="https://es.wikipedia.org/wiki/A%C3%B1o_bisiesto">bisiesto</a>. Este ejercicio es excelente para practicar el uso de operadores lógicos y condicionales en Python.</p>
 <section id="contexto-3" class="level3">
 <h3 class="anchored" data-anchor-id="contexto-3">Contexto</h3>
-<p>Una calculadora es una herramienta fundamental que permite realizar cálculos matemáticos básicos y complejos. En este ejercicio, nos centraremos en construir una calculadora que pueda manejar cuatro operaciones básicas: suma (<code>+</code>), resta (<code>-</code>), multiplicación (<code>*</code>) y división (<code>/</code>). Además, nos aseguraremos de manejar casos especiales como la división por cero, que no es una operación válida en matemáticas y debe ser tratada con cuidado en nuestro código.</p>
+<p>Un año bisiesto es un año que tiene 366 días en lugar de los 365 días habituales. Este día adicional se añade en febrero, que tiene 29 días en lugar de 28. Las reglas para determinar si un año es bisiesto son las siguientes:</p>
+<ol type="1">
+<li>Un año es bisiesto si es divisible por 4.</li>
+<li>Sin embargo, si el año es divisible por 100, no es un año bisiesto a menos que también sea divisible por 400.</li>
+</ol>
 </section>
 <section id="objetivos-del-ejercicio-3" class="level3">
 <h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-3">Objetivos del Ejercicio</h3>
@@ -821,6 +820,71 @@ Desafío:
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que determine si un año es bisiesto o no, utilizando las reglas mencionadas anteriormente.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>es_bisiesto</code> que tome un parámetro: el año (<code>anio</code>) a verificar.</li>
+<li><strong>Implementar la lógica</strong>: Usaremos operadores lógicos (<code>and</code>, <code>or</code>) y estructuras condicionales (<code>if</code>, <code>else</code>) para determinar si el año es bisiesto.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con diferentes años para asegurarnos de que funcione correctamente.</li>
+</ol>
+</section>
+<section id="código-para-verificación-de-año-bisiesto" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-verificación-de-año-bisiesto">Código para Verificación de Año Bisiesto</h3>
+<div id="qpyodide-insertion-location-7"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código-3" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-3">Explicación del Código</h3>
+<p>Este código define una función llamada <code>es_bisiesto</code> que realiza lo siguiente:</p>
+<ol type="1">
+<li><strong>Parámetro de Entrada</strong>:
+<ul>
+<li><code>anio</code>: Un entero que representa el año a verificar.</li>
+</ul></li>
+<li><strong>Lógica para Determinar Año Bisiesto</strong>:
+<ul>
+<li>Utiliza operadores lógicos y condicionales para verificar las reglas de un año bisiesto.</li>
+<li><strong>Regla 1</strong>: <code>(anio % 4 == 0 and anio % 100 != 0)</code> - Un año es bisiesto si es divisible por 4 y no es divisible por 100.</li>
+<li><strong>Regla 2</strong>: <code>(anio % 400 == 0)</code> - Un año es bisiesto si es divisible por 400.</li>
+<li>Si alguna de las reglas es verdadera, la función devuelve <code>True</code>, indicando que el año es bisiesto. De lo contrario, devuelve <code>False</code>.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso-3" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-3">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>es_bisiesto</code> para verificar si el año 2024 es bisiesto. Al ejecutar este ejemplo, se imprimirá <code>2024 es un año bisiesto</code>.</p>
+</section>
+<section id="prueba-y-modificación-3" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-3">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar el valor de <code>anio</code> para probar diferentes años y explorar cómo funciona la función. Por ejemplo:</p>
+<div id="qpyodide-insertion-location-8"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>Estos ejemplos permiten a los estudiantes ver cómo la función verifica si diferentes años son bisiestos, reforzando su comprensión del uso de operadores lógicos y estructuras condicionales en Python. Este ejercicio proporciona una excelente oportunidad para practicar la implementación de reglas lógicas y condicionales en Python, y es una forma efectiva de entender cómo aplicar reglas matemáticas para resolver problemas del mundo real.</p>
+</section>
+</section>
+<section id="calculadora-básica" class="level2">
+<h2 class="anchored" data-anchor-id="calculadora-básica">🧮 Calculadora Básica</h2>
+<p>En este ejercicio, vamos a crear una simple calculadora que puede realizar operaciones básicas como suma, resta, multiplicación y división. Esta actividad es ideal para que los principiantes practiquen el uso de funciones, operadores aritméticos y estructuras condicionales en Python.</p>
+<section id="contexto-4" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-4">Contexto</h3>
+<p>Una calculadora es una herramienta fundamental que permite realizar cálculos matemáticos básicos y complejos. En este ejercicio, nos centraremos en construir una calculadora que pueda manejar cuatro operaciones básicas: suma (<code>+</code>), resta (<code>-</code>), multiplicación (<code>*</code>) y división (<code>/</code>). Además, nos aseguraremos de manejar casos especiales como la división por cero, que no es una operación válida en matemáticas y debe ser tratada con cuidado en nuestro código.</p>
+</section>
+<section id="objetivos-del-ejercicio-4" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-4">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
 <p>El objetivo de este ejercicio es escribir una función en Python que pueda realizar las operaciones básicas de una calculadora y manejar casos especiales como la división por cero.</p>
 </div>
 </div>
@@ -834,11 +898,11 @@ Desafío:
 </section>
 <section id="código-de-la-calculadora" class="level3">
 <h3 class="anchored" data-anchor-id="código-de-la-calculadora">Código de la Calculadora</h3>
-<div id="qpyodide-insertion-location-7"></div>
+<div id="qpyodide-insertion-location-9"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="explicación-del-código-3" class="level3">
-<h3 class="anchored" data-anchor-id="explicación-del-código-3">Explicación del Código</h3>
+<section id="explicación-del-código-4" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-4">Explicación del Código</h3>
 <p>Este código define una función llamada <code>calculadora</code> que realiza lo siguiente:</p>
 <ol type="1">
 <li><strong>Parámetros de Entrada</strong>:
@@ -859,14 +923,14 @@ Desafío:
 </ul></li>
 </ol>
 </section>
-<section id="ejemplo-de-uso-3" class="level3">
-<h3 class="anchored" data-anchor-id="ejemplo-de-uso-3">Ejemplo de Uso</h3>
+<section id="ejemplo-de-uso-4" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-4">Ejemplo de Uso</h3>
 <p>El código de ejemplo muestra cómo usar la función <code>calculadora</code> con una operación de suma (<code>+</code>), y los números <code>10</code> y <code>5</code>. Al ejecutar este ejemplo, se imprimirá <code>Para la operación 10 + 5, el resultado es Resultado: 15</code>.</p>
 </section>
-<section id="prueba-y-modificación-3" class="level3">
-<h3 class="anchored" data-anchor-id="prueba-y-modificación-3">Prueba y Modificación</h3>
+<section id="prueba-y-modificación-4" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-4">Prueba y Modificación</h3>
 <p>Los estudiantes pueden modificar los valores de <code>operacion</code>, <code>num1</code>, y <code>num2</code> para probar diferentes cálculos y explorar cómo funciona la función. Por ejemplo:</p>
-<div id="qpyodide-insertion-location-8"></div>
+<div id="qpyodide-insertion-location-10"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <p>Estos ejemplos permiten a los estudiantes ver cómo la función realiza diferentes operaciones aritméticas y maneja casos especiales como la división por cero, reforzando su comprensión del uso de funciones, operadores aritméticos y estructuras condicionales en Python.</p>
 </section>
@@ -874,78 +938,9 @@ Desafío:
 <section id="número-primo" class="level2">
 <h2 class="anchored" data-anchor-id="número-primo">🔢 Número Primo</h2>
 <p>Un programa para verificar si un número es <a href="https://es.wikipedia.org/wiki/N%C3%BAmero_primo">primo</a>. Este ejercicio es útil para practicar el uso de bucles, estructuras condicionales y funciones en Python.</p>
-<section id="contexto-4" class="level3">
-<h3 class="anchored" data-anchor-id="contexto-4">Contexto</h3>
-<p>Un número primo es un número mayor que 1 que no tiene divisores positivos además de 1 y sí mismo. Este ejercicio consiste en determinar si un número dado es primo.</p>
-</section>
-<section id="objetivos-del-ejercicio-4" class="level3">
-<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-4">Objetivos del Ejercicio</h3>
-<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Desafío:
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>El objetivo de este ejercicio es escribir una función en Python que verifique si un número es primo y pruebe la función con un ejemplo.</p>
-</div>
-</div>
-</div>
-<ol type="1">
-<li><strong>Definir una función</strong>: Crearemos una función llamada <code>es_primo</code> que tome un parámetro: el número a verificar (<code>n</code>).</li>
-<li><strong>Implementar la verificación</strong>: Usaremos un bucle para comprobar si el número tiene divisores distintos de 1 y sí mismo.</li>
-<li><strong>Probar la función</strong>: Probaremos la función con un valor de ejemplo y mostraremos el resultado.</li>
-</ol>
-</section>
-<section id="código-para-verificación-de-número-primo" class="level3">
-<h3 class="anchored" data-anchor-id="código-para-verificación-de-número-primo">Código para Verificación de Número Primo</h3>
-<div id="qpyodide-insertion-location-9"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="explicación-del-código-4" class="level3">
-<h3 class="anchored" data-anchor-id="explicación-del-código-4">Explicación del Código</h3>
-<p>Este código define una función llamada <code>es_primo</code> que realiza lo siguiente:</p>
-<ol type="1">
-<li><strong>Parámetro de Entrada</strong>:
-<ul>
-<li><code>n</code>: Un entero que representa el número a verificar.</li>
-</ul></li>
-<li><strong>Lógica de Verificación</strong>:
-<ul>
-<li>Si <code>n</code> es menor o igual a <code>1</code>, la función devuelve <code>False</code> indicando que no es un número primo.</li>
-<li>Usa un bucle <code>for</code> para iterar desde <code>2</code> hasta <code>n-1</code>. Si <code>n</code> es divisible por cualquier número en este rango, la función devuelve <code>False</code> indicando que no es un número primo.</li>
-<li>Si el bucle termina sin encontrar divisores, la función devuelve <code>True</code> indicando que el número es primo.</li>
-</ul></li>
-</ol>
-</section>
-<section id="ejemplo-de-uso-4" class="level3">
-<h3 class="anchored" data-anchor-id="ejemplo-de-uso-4">Ejemplo de Uso</h3>
-<p>El código de ejemplo muestra cómo usar la función <code>es_primo</code> con un valor de ejemplo (29). Al ejecutar este ejemplo, se imprimirá <code>29 es un número primo</code>.</p>
-</section>
-<section id="prueba-y-modificación-4" class="level3">
-<h3 class="anchored" data-anchor-id="prueba-y-modificación-4">Prueba y Modificación</h3>
-<p>Los estudiantes pueden modificar el valor de <code>numero</code> para probar diferentes números y explorar cómo funciona la función. Por ejemplo:</p>
-<div id="qpyodide-insertion-location-10"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>Estos ejemplos permiten a los estudiantes ver cómo la función verifica si diferentes números son primos, reforzando su comprensión de los bucles, las estructuras condicionales y las funciones en Python. Este ejercicio proporciona una excelente oportunidad para practicar la implementación de reglas matemáticas y condicionales en Python, y es una forma efectiva de entender cómo aplicar algoritmos para resolver problemas del mundo real.</p>
-</section>
-</section>
-<section id="conjetura-de-collatz" class="level2">
-<h2 class="anchored" data-anchor-id="conjetura-de-collatz">📜 Conjetura de Collatz</h2>
-<p>En este ejercicio, vamos a crear un programa que implemente la <a href="https://es.wikipedia.org/wiki/Conjetura_de_Collatz">Conjetura de Collatz</a>, también conocida como la conjetura 3n + 1. Este ejercicio es excelente para practicar el uso de bucles, listas y estructuras condicionales en Python.</p>
 <section id="contexto-5" class="level3">
 <h3 class="anchored" data-anchor-id="contexto-5">Contexto</h3>
-<p>La Conjetura de Collatz es un problema matemático no resuelto que involucra una secuencia de números. Comienza con cualquier número positivo entero <code>n</code> y aplica las siguientes reglas repetidamente:</p>
-<ol type="1">
-<li>Si <code>n</code> es par, se divide por 2.</li>
-<li>Si <code>n</code> es impar, se multiplica por 3 y se le suma 1.</li>
-</ol>
-<p>La conjetura afirma que, no importa qué valor inicial se elija, la secuencia siempre llegará a 1.</p>
+<p>Un número primo es un número mayor que 1 que no tiene divisores positivos además de 1 y sí mismo. Este ejercicio consiste en determinar si un número dado es primo.</p>
 </section>
 <section id="objetivos-del-ejercicio-5" class="level3">
 <h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-5">Objetivos del Ejercicio</h3>
@@ -961,6 +956,75 @@ Desafío:
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que verifique si un número es primo y pruebe la función con un ejemplo.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>es_primo</code> que tome un parámetro: el número a verificar (<code>n</code>).</li>
+<li><strong>Implementar la verificación</strong>: Usaremos un bucle para comprobar si el número tiene divisores distintos de 1 y sí mismo.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con un valor de ejemplo y mostraremos el resultado.</li>
+</ol>
+</section>
+<section id="código-para-verificación-de-número-primo" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-verificación-de-número-primo">Código para Verificación de Número Primo</h3>
+<div id="qpyodide-insertion-location-11"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código-5" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-5">Explicación del Código</h3>
+<p>Este código define una función llamada <code>es_primo</code> que realiza lo siguiente:</p>
+<ol type="1">
+<li><strong>Parámetro de Entrada</strong>:
+<ul>
+<li><code>n</code>: Un entero que representa el número a verificar.</li>
+</ul></li>
+<li><strong>Lógica de Verificación</strong>:
+<ul>
+<li>Si <code>n</code> es menor o igual a <code>1</code>, la función devuelve <code>False</code> indicando que no es un número primo.</li>
+<li>Usa un bucle <code>for</code> para iterar desde <code>2</code> hasta <code>n-1</code>. Si <code>n</code> es divisible por cualquier número en este rango, la función devuelve <code>False</code> indicando que no es un número primo.</li>
+<li>Si el bucle termina sin encontrar divisores, la función devuelve <code>True</code> indicando que el número es primo.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso-5" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-5">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>es_primo</code> con un valor de ejemplo (29). Al ejecutar este ejemplo, se imprimirá <code>29 es un número primo</code>.</p>
+</section>
+<section id="prueba-y-modificación-5" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-5">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar el valor de <code>numero</code> para probar diferentes números y explorar cómo funciona la función. Por ejemplo:</p>
+<div id="qpyodide-insertion-location-12"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>Estos ejemplos permiten a los estudiantes ver cómo la función verifica si diferentes números son primos, reforzando su comprensión de los bucles, las estructuras condicionales y las funciones en Python. Este ejercicio proporciona una excelente oportunidad para practicar la implementación de reglas matemáticas y condicionales en Python, y es una forma efectiva de entender cómo aplicar algoritmos para resolver problemas del mundo real.</p>
+</section>
+</section>
+<section id="conjetura-de-collatz" class="level2">
+<h2 class="anchored" data-anchor-id="conjetura-de-collatz">📜 Conjetura de Collatz</h2>
+<p>En este ejercicio, vamos a crear un programa que implemente la <a href="https://es.wikipedia.org/wiki/Conjetura_de_Collatz">Conjetura de Collatz</a>, también conocida como la conjetura 3n + 1. Este ejercicio es excelente para practicar el uso de bucles, listas y estructuras condicionales en Python.</p>
+<section id="contexto-6" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-6">Contexto</h3>
+<p>La Conjetura de Collatz es un problema matemático no resuelto que involucra una secuencia de números. Comienza con cualquier número positivo entero <code>n</code> y aplica las siguientes reglas repetidamente:</p>
+<ol type="1">
+<li>Si <code>n</code> es par, se divide por 2.</li>
+<li>Si <code>n</code> es impar, se multiplica por 3 y se le suma 1.</li>
+</ol>
+<p>La conjetura afirma que, no importa qué valor inicial se elija, la secuencia siempre llegará a 1.</p>
+</section>
+<section id="objetivos-del-ejercicio-6" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-6">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
 <p>El objetivo de este ejercicio es escribir una función en Python que implemente la Conjetura de Collatz y genere la secuencia de números hasta llegar a 1.</p>
 </div>
 </div>
@@ -973,11 +1037,11 @@ Desafío:
 </section>
 <section id="código-para-la-conjetura-de-collatz" class="level3">
 <h3 class="anchored" data-anchor-id="código-para-la-conjetura-de-collatz">Código para la Conjetura de Collatz</h3>
-<div id="qpyodide-insertion-location-11"></div>
+<div id="qpyodide-insertion-location-13"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="explicación-del-código-5" class="level3">
-<h3 class="anchored" data-anchor-id="explicación-del-código-5">Explicación del Código</h3>
+<section id="explicación-del-código-6" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-6">Explicación del Código</h3>
 <p>Este código define una función llamada <code>conjetura_de_collatz</code> que realiza lo siguiente:</p>
 <ol type="1">
 <li><strong>Parámetro de Entrada</strong>:
@@ -1005,15 +1069,15 @@ Desafío:
 </ul></li>
 </ol>
 </section>
-<section id="ejemplo-de-uso-5" class="level3">
-<h3 class="anchored" data-anchor-id="ejemplo-de-uso-5">Ejemplo de Uso</h3>
+<section id="ejemplo-de-uso-6" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-6">Ejemplo de Uso</h3>
 <p>El código de ejemplo muestra cómo usar la función <code>conjetura_de_collatz</code> con un número inicial de 6. Al ejecutar este ejemplo, se imprimirá la secuencia generada, mostrando cada número en la secuencia hasta llegar a 1.</p>
 <pre><code>6 -&gt; 3 -&gt; 10 -&gt; 5 -&gt; 16 -&gt; 8 -&gt; 4 -&gt; 2 -&gt; 1</code></pre>
 </section>
-<section id="prueba-y-modificación-5" class="level3">
-<h3 class="anchored" data-anchor-id="prueba-y-modificación-5">Prueba y Modificación</h3>
+<section id="prueba-y-modificación-6" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-6">Prueba y Modificación</h3>
 <p>Los estudiantes pueden modificar el valor de <code>numero</code> para probar diferentes números iniciales y explorar cómo funciona la secuencia de la Conjetura de Collatz. Por ejemplo:</p>
-<div id="qpyodide-insertion-location-12"></div>
+<div id="qpyodide-insertion-location-14"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <p>Estos ejemplos permiten a los estudiantes ver cómo la función genera diferentes secuencias según el número inicial, reforzando su comprensión del uso de bucles, listas y estructuras condicionales en Python. Este ejercicio no solo es una excelente práctica de programación, sino que también introduce a los estudiantes a un fascinante problema matemático.</p>
 </section>
@@ -1022,7 +1086,7 @@ Desafío:
 <h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
 <p>El uso de Python en la enseñanza de las matemáticas no solo moderniza el aprendizaje, sino que también lo vuelve más interactivo y entretenido. A través de ejercicios prácticos como la conversión de temperatura, el cálculo del IMC y la exploración de secuencias matemáticas, los estudiantes adquieren habilidades clave para el mundo tecnológico.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Desafío para Estudiantes:">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1031,7 +1095,7 @@ Desafío para Estudiantes:
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>El desafío para los estudiantes es seguir explorando y practicando con Python para hacer las matemáticas más divertidas y comprensibles. ¡Atrévete a resolver problemas, experimentar con nuevas ideas y descubrir cómo la programación puede mejorar tu comprensión de la ciencia y la tecnología!</p>
 </div>
