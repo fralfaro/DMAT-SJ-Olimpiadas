@@ -4,19 +4,19 @@
 <img src="../../images/professor.png" width="400">
 </center>
 
-Este taller está diseñado para profesores de matemáticas de enseñanza media que buscan integrar la programación en Python en su currículo. A través de ejemplos prácticos y ejercicios, los profesores aprenderán cómo pueden utilizar Python para hacer que las matemáticas sean más interactivas y atractivas para los estudiantes.
+Este taller, dirigido a profesores de matemáticas de enseñanza media, busca integrar Python en el currículo para hacer las matemáticas más interactivas y atractivas. A través de ejemplos prácticos, los docentes aprenderán a utilizar Python para enriquecer su enseñanza.
 
 ## 🎯 Objetivos del Taller
 
-- Explorar cómo Python puede mejorar la enseñanza de las matemáticas.
-- Desarrollar ejercicios de programación que refuercen conceptos matemáticos.
-- Proveer herramientas para resolver problemas matemáticos con Python.
+- Utilizar Python para mejorar la enseñanza de matemáticas.
+- Crear ejercicios de programación que refuercen conceptos matemáticos.
+- Proporcionar herramientas prácticas para resolver problemas matemáticos con Python.
 
 ## Contexto y Justificación
 
 Integrar Python en la enseñanza de matemáticas permite explorar conceptos de forma dinámica. Su sintaxis clara y numerosas bibliotecas facilitan la demostración de temas, desde aritmética básica hasta cálculo y estadística, enriqueciendo la comprensión matemática de los estudiantes.
 
-### Importancia de Integrar Python en la Educación Media
+### Python en la Educación Media
 
 Incluir Python en la enseñanza media fomenta el interés en ciencias de la computación y refuerza el aprendizaje matemático. Sus beneficios clave son:
 
@@ -27,73 +27,111 @@ Incluir Python en la enseñanza media fomenta el interés en ciencias de la comp
 3. **Pensamiento crítico**: Fomenta el razonamiento lógico y la resolución eficiente de problemas matemáticos.
 
 <center>
-<img src="../../images/n01.png" width="700">
+<img src="../../images/n10.png" width="700">
 </center>
 
-### Impacto en la Educación
 
-La adopción de la programación en la educación ha crecido constantemente, reflejando su relevancia en el aprendizaje moderno.
-
-1. **Globalización de la enseñanza**: El 43% de los países de ingresos altos y el 62% de los países de ingresos medios-altos integran la educación en ciencias de la computación en primaria y secundaria, destacando la importancia de las competencias tecnológicas para el futuro laboral.
-
-2. **Distribución geográfica**: Mientras América del Norte y Europa avanzan en la programación en el aula, América Latina y el sudeste asiático implementan programas piloto y currículos nacionales.
-
-3. **Desigualdad en el acceso**: Aunque el 91% de los países lanzaron plataformas de aprendizaje online durante la pandemia, solo un cuarto de los estudiantes tuvo acceso, evidenciando barreras en áreas rurales y entre estudiantes de bajos ingresos.
+### Python en el Día a Día 
 
 <center>
-<img src="../../images/n02.png" width="700">
-</center>
-
-### Demanda en el Mercado Laboral
-
-Las habilidades en programación y matemáticas son esenciales en la educación y el mercado laboral. Las tendencias clave incluyen:
-
-1. **Crecimiento en desarrollo de software**: El U.S. Bureau of Labor Statistics proyecta un crecimiento del 22% en la demanda de desarrolladores de software entre 2020 y 2030.
-
-2. **Demanda de habilidades matemáticas**: Según LinkedIn, puestos como ciencia de datos y análisis financiero crecen a un 33% anual.
-
-3. **Salarios competitivos**: Los programadores en EE. UU. ganan un promedio de $110,000 al año, mientras que matemáticos y analistas cuantitativos ganan alrededor de $100,000.
-
-<center>
-<img src="../../images/n03.png" width="500">
+<img src="../../images/n07.png" width="600">
 </center>
 
 
-### Perspectiva de Género
+```{python}
+#| echo: false
+from great_tables import GT
+import pandas as pd
 
-La disparidad de género en programación y matemáticas es un desafío persistente:
+data_impacto = {
+    "Aspecto": [
+        "Impacto en la Educación", 
+        "", 
+        "Demanda Laboral", 
+        "", 
+        "Perspectiva de Género", 
+        "", 
+        "Matemáticas Aplicadas", 
+        ""
+    ],
+    "Detalle": [
+        "50% de países altos y 60% medios-altos han integrado ciencias de la computación.",
+        "Solo el 43% de estudiantes en países bajos tienen acceso a Internet en la escuela.",
+        "22% de aumento proyectado en desarrolladores de software.",
+        "33% de crecimiento anual en científicos de datos y analistas financieros.",
+        "21% de puestos en informática son ocupados por mujeres.",
+        "Mujeres en matemáticas: 47% de estudiantes - solo 29% en puestos académicos.",
+        "Flexibilidad en cálculos con NumPy y Pandas.",
+        "85% de científicos de datos prefieren Python para machine learning."
+    ],
+    "Fuente": [
+        "OCDE",
+        "UNESCO",
+        "U.S. Bureau of Labor Statistics",
+        "LinkedIn",
+        "OCDE",
+        "AAUW",
+        "NumFOCUS, Stack Overflow",
+        "Kaggle, Stack Overflow"
+    ]
+}
 
-1. **Programación**: Solo el 21% de los puestos en informática son ocupados por mujeres, aunque hay crecientes iniciativas para reducir esta brecha.
+df_impacto = pd.DataFrame(data_impacto)
 
-2. **Matemáticas**: Aunque el 47% de los estudiantes de pregrado son mujeres, solo el 29% de los puestos académicos permanentes las incluyen, reflejando la necesidad de avanzar en la equidad de género.
+(
+    GT(df_impacto).opt_stylize(style=2, color="blue")
+)
+```
 
-<center>
-<img src="../../images/n04.png" width="300">
-</center>
-
-### Python y las Matemáticas Aplicadas
-
-Python es esencial en matemáticas aplicadas y ciencia de datos por varias razones:
-
-1. **Flexibilidad**: Bibliotecas como NumPy, Pandas, Matplotlib y SymPy facilitan cálculos complejos y visualizaciones eficientes.
-
-2. **Machine learning**: El 85% de los científicos de datos considera que las matemáticas son cruciales para el desarrollo de algoritmos, y Python es el lenguaje preferido.
-
-3. **Visualización de datos**: Permite gestionar grandes volúmenes de datos y crear visualizaciones interactivas para un análisis más efectivo.
-
-<center>
-<img src="../../images/n05.png" width="300">
-</center>
 
 
 ## Ejercicios y Ejemplos Prácticos
 
-### 🔢 Aritmética y Python
-
-Estos ejercicios están diseñados para ayudar a los estudiantes a practicar conceptos aritméticos básicos utilizando Python.
+### ✅ Básicos
 
 
-#### 1. Verificar si un Número es Par o Impar
+#### 1. Conversión de Fahrenheit a Celsius
+
+Este ejercicio enseña a los estudiantes a utilizar la fórmula de conversión para transformar temperaturas de Fahrenheit a Celsius. La fórmula es: 
+
+$$ C = \frac{(F - 32) \times 5}{9}$$
+
+- [Conversión de grados Fahrenheit a Celsius - Wikipedia](https://es.wikipedia.org/wiki/Grado_Fahrenheit#Conversi%C3%B3n_a_grados_Celsius)
+
+```{pyodide-python}
+def fahrenheit_a_celsius(fahrenheit):
+    celsius = (fahrenheit - 32) * 5 / 9
+    return celsius
+
+# Ejemplo de uso
+temperatura_f = 100
+print(f"La temperatura {temperatura_f}°F es igual a {fahrenheit_a_celsius(temperatura_f):.2f}°C.")
+```
+
+
+#### 2. Cálculo del Índice de Masa Corporal (IMC)
+
+Este ejercicio enseña a los estudiantes a calcular el IMC utilizando la fórmula:
+
+$$ IMC = \frac{peso \, (kg)}{altura^2 \, (m^2)}$$
+
+- [Índice de Masa Corporal - Wikipedia](https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal)
+
+```{pyodide-python}
+def calcular_imc(peso, altura):
+    imc = peso / (altura ** 2)
+    return imc
+
+# Ejemplo de uso
+peso = 70  # en kilogramos
+altura = 1.75  # en metros
+print(f"El IMC es {calcular_imc(peso, altura):.2f}.")
+```
+
+
+
+
+#### 3. Verificar si un Número es Par o Impar
 
 Este ejercicio enseña a los estudiantes a usar el operador módulo (`%`) para determinar si un número es divisible por 2, clasificándolo como "par" o "impar".
 
@@ -113,205 +151,200 @@ print(f"El número {numero} es {es_par(numero)}.")
 ```
 
 
-#### 2. Calcular el Promedio de una Lista de Números
+### 🔢 Aritmética
 
-Aquí se muestra cómo calcular el promedio (media aritmética) de una lista de números, sumando los elementos y dividiéndolos por la cantidad de elementos.
 
-- [Media aritmética - Wikipedia](https://es.wikipedia.org/wiki/Media_aritm%C3%A9tica)
+#### 1. Verificar si un Número es Primo
 
-```{pyodide-python}
-def promedio(numeros):
-    return sum(numeros) / len(numeros)
+Este ejercicio enseña a los estudiantes a verificar si un número es primo. Un número primo es un número mayor que 1 que solo tiene dos divisores: 1 y él mismo.
 
-# Ejemplo de uso
-numeros = [4, 8, 15, 16, 23, 42]
-print(f"El promedio es {promedio(numeros):.2f}")
-```
-
-#### 3. Mínimo Común Múltiplo (MCM)
-
-Este ejercicio utiliza el concepto de Mínimo Común Múltiplo, calculando el menor número que es múltiplo común de dos números dados.
-
-- [Mínimo común múltiplo - Wikipedia](https://es.wikipedia.org/wiki/M%C3%ADnimo_com%C3%BAn_m%C3%BAltiplo)
+- [Número primo - Wikipedia](https://es.wikipedia.org/wiki/N%C3%BAmero_primo)
 
 ```{pyodide-python}
-import math
-
-def mcm(a, b):
-    return abs(a * b) // math.gcd(a, b)
+def es_primo(numero):
+    if numero < 2:
+        return False
+    for i in range(2, int(numero**0.5) + 1):
+        if numero % i == 0:
+            return False
+    return True
 
 # Ejemplo de uso
-num1, num2 = 12, 15
-print(f"El MCM de {num1} y {num2} es {mcm(num1, num2)}")
+numero = 29
+if es_primo(numero):
+    print(f"El número {numero} es primo.")
+else:
+    print(f"El número {numero} no es primo.")
 ```
 
 
-#### 4. Calcular el Máximo Común Divisor (MCD)
+#### 2. Conjetura de Collatz
 
-Aquí se utiliza el algoritmo de Euclides para encontrar el mayor número que divide exactamente a dos números, enseñando un método eficiente para encontrar el MCD.
+Este ejercicio enseña a los estudiantes sobre la conjetura de Collatz, que sugiere que al tomar cualquier número entero positivo y aplicar la siguiente secuencia, se llegará eventualmente al número 1:
 
-- [Máximo común divisor - Wikipedia](https://es.wikipedia.org/wiki/M%C3%A1ximo_com%C3%BAn_divisor)
+a.  Si el número es par, se divide entre 2.
+b.  Si el número es impar, se multiplica por 3 y se le suma 1.
 
-```{pyodide-python}
-def mcd(a, b):
-    while b != 0:
-        a, b = b, a % b
-    return a
-
-# Ejemplo de uso
-num1 = 56
-num2 = 98
-print(f"El MCD de {num1} y {num2} es {mcd(num1, num2)}")
-```
-
-#### 5. Calcular el Factorial de un Número
-
-El ejercicio muestra cómo calcular el factorial de un número, que es el producto de todos los números enteros positivos menores o iguales a ese número.
-
-- [Factorial - Wikipedia](https://es.wikipedia.org/wiki/Factorial)
+- [Conjetura de Collatz - Wikipedia](https://es.wikipedia.org/wiki/Conjetura_de_Collatz)
 
 ```{pyodide-python}
-import math
-
-def factorial(n):
-    return math.factorial(n)
+def colllatz(n):
+    pasos = []
+    while n != 1:
+        pasos.append(n)
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3 * n + 1
+    pasos.append(1)
+    return pasos
 
 # Ejemplo de uso
-numero = 5
-print(f"El factorial de {numero} es {factorial(numero)}")
+numero = 6
+resultado = colllatz(numero)
+print(f"La secuencia de Collatz para el número {numero} es: {resultado}.")
 ```
 
----
-
-### 📐 Geometría y Python
-
-Estos ejercicios permiten a los estudiantes interactuar con conceptos geométricos mediante Python.
 
 
-#### 1. Calcular el Área y Perímetro de un Rectángulo
 
-Este ejercicio muestra cómo calcular el área y el perímetro de un rectángulo usando las fórmulas básicas: multiplicar largo por ancho para el área y sumar dos veces la suma de largo y ancho para el perímetro.
+### 📐 Geometría 
+
+
+
+
+#### 1. Área y Perímetro de un Rectángulo
+
+Este ejercicio enseña a los estudiantes a calcular el área y el perímetro de un rectángulo utilizando las siguientes fórmulas:
+
+a. **Área**: $A = base \times altura$
+b. **Perímetro**: $P = 2 \times (base + altura)$
 
 - [Rectángulo - Wikipedia](https://es.wikipedia.org/wiki/Rect%C3%A1ngulo)
 
 ```{pyodide-python}
-def area_perimetro_rectangulo(largo, ancho):
-    area = largo * ancho
-    perimetro = 2 * (largo + ancho)
+def area_perimetro_rectangulo(base, altura):
+    area = base * altura
+    perimetro = 2 * (base + altura)
     return area, perimetro
 
 # Ejemplo de uso
-largo = 10
-ancho = 5
-area, perimetro = area_perimetro_rectangulo(largo, ancho)
-print(f"El área del rectángulo es {area} y el perímetro es {perimetro}")
-```
-
-#### 2. Calcular el Volumen de un Cilindro
-
-En este ejercicio, se calcula el volumen de un cilindro utilizando la fórmula: π × radio² × altura, introduciendo a los estudiantes al concepto de volumen en cuerpos geométricos.
-
-- [Cilindro - Wikipedia](https://es.wikipedia.org/wiki/Cilindro_(geometr%C3%ADa))
-
-```{pyodide-python}
-import math
-
-def volumen_cilindro(radio, altura):
-    return math.pi * radio ** 2 * altura
-
-# Ejemplo de uso
-radio = 3
-altura = 7
-print(f"El volumen del cilindro es {volumen_cilindro(radio, altura):.2f}")
-```
-
-#### 3. Calcular el Área de un Triángulo
-
-Aquí se calcula el área de un triángulo utilizando la fórmula básica: (base × altura) / 2, ayudando a los estudiantes a entender cómo se mide el espacio dentro de un triángulo.
-
-- [Triángulo - Wikipedia](https://es.wikipedia.org/wiki/Tri%C3%A1ngulo)
-
-```{pyodide-python}
-def area_triangulo(base, altura):
-    return (base * altura) / 2
-
-# Ejemplo de uso
-base = 6
-altura = 9
-print(f"El área del triángulo es {area_triangulo(base, altura):.2f}")
+base = 5
+altura = 3
+area, perimetro = area_perimetro_rectangulo(base, altura)
+print(f"El área del rectángulo es {area} y el perímetro es {perimetro}.")
 ```
 
 
-#### 4. Calcular el Área de un Círculo
 
-Aquí se calcula el área de un círculo con la fórmula: π × radio², lo que introduce a los estudiantes al uso del número π y a los conceptos de medición en figuras circulares.
+#### 2. Área y Perímetro de un Círculo
+
+Este ejercicio enseña a los estudiantes a calcular el área y el perímetro (circunferencia) de un círculo utilizando las siguientes fórmulas:
+
+a. **Área**: $A = \pi \times radio^2$
+b. **Perímetro (Circunferencia)**: $C = 2 \times \pi \times radio$
 
 - [Círculo - Wikipedia](https://es.wikipedia.org/wiki/C%C3%ADrculo)
 
 ```{pyodide-python}
 import math
 
-def area_circulo(radio):
-    return math.pi * radio ** 2
+def area_perimetro_circulo(radio):
+    area = math.pi * radio ** 2
+    perimetro = 2 * math.pi * radio
+    return area, perimetro
 
 # Ejemplo de uso
-radio = 5
-print(f"El área de un círculo con radio {radio} es {area_circulo(radio):.2f}")
+radio = 4
+area, perimetro = area_perimetro_circulo(radio)
+print(f"El área del círculo es {area:.2f} y el perímetro (circunferencia) es {perimetro:.2f}.")
 ```
 
-#### 5. Calcular la Distancia entre dos Puntos
+### 🔤 Álgebra 
 
-Este ejercicio utiliza la fórmula de la distancia euclidiana para calcular la distancia entre dos puntos en un plano, reforzando el concepto de coordenadas y medidas en la geometría.
 
-- [Distancia euclidiana - Wikipedia](https://es.wikipedia.org/wiki/Distancia_euclidiana)
+#### 1. Resolución y Gráfica de una Ecuación Cuadrática
+
+Este ejercicio enseña a los estudiantes a resolver ecuaciones cuadráticas de la forma:
+
+$$ ax^2 + bx + c = 0 $$
+
+Utilizando la fórmula cuadrática:
+
+$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+Y a graficar la función cuadrática.
+
+- [Ecuación cuadrática - Wikipedia](https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_cuadr%C3%A1tica)
 
 ```{pyodide-python}
+import numpy as np
+import matplotlib.pyplot as plt
 import math
 
-def distancia_puntos(x1, y1, x2, y2):
-    return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+def resolver_ecuacion_cuadratica(a, b, c):
+    # Calculamos el discriminante
+    discriminante = b**2 - 4*a*c
+    
+    if discriminante < 0:
+        return "No hay soluciones reales"
+    elif discriminante == 0:
+        x = -b / (2*a)
+        return f"Una solución real: x = {x:.2f}"
+    else:
+        x1 = (-b + math.sqrt(discriminante)) / (2*a)
+        x2 = (-b - math.sqrt(discriminante)) / (2*a)
+        return f"Dos soluciones reales: x1 = {x1:.2f}, x2 = {x2:.2f}"
+
+def graficar_ecuacion_cuadratica(a, b, c):
+    x = np.linspace(-10, 10, 400)  # Generamos un conjunto de valores x desde -10 hasta 10 con 400 puntos
+    y = a * x**2 + b * x + c       # Calculamos los valores y de la ecuación cuadrática para cada x
+
+    plt.figure(figsize=(10, 6))     # Creamos una figura para la gráfica con un tamaño específico
+    plt.plot(x, y, label=f'{a}x² + {b}x + {c}', color='blue')  # Graficamos la curva de la ecuación cuadrática
+    
+    plt.axhline(0, color='red', lw=0.8, ls='--')  # Dibujamos una línea horizontal en y = 0 (eje x)
+    plt.axvline(0, color='red', lw=0.8, ls='--')  # Dibujamos una línea vertical en x = 0 (eje y)
+    
+    plt.title('Gráfica de la Ecuación Cuadrática')  # Agregamos un título a la gráfica
+    plt.xlabel('x')  # Etiquetamos el eje x
+    plt.ylabel('f(x)')  # Etiquetamos el eje y
+    
+    plt.xlim(-5, 5)  # Establecemos los límites del eje x
+    plt.ylim(-1, 5)  # Establecemos los límites del eje y
+    
+    plt.grid()  # Activamos la cuadrícula en la gráfica
+    plt.legend()  # Mostramos la leyenda de la gráfica
+    
+    plt.show()  # Mostramos la gráfica en pantalla
 
 # Ejemplo de uso
-x1, y1 = 2, 3
-x2, y2 = 8, 7
-print(f"La distancia entre los puntos es {distancia_puntos(x1, y1, x2, y2):.2f}")
+a = 1
+b = -3
+c = 2
+resultado = resolver_ecuacion_cuadratica(a, b, c)
+print(f"Para la ecuación {a}x² + {b}x + {c} = 0: {resultado}")
+
+# Graficar la función cuadrática
+graficar_ecuacion_cuadratica(a, b, c)
 ```
 
 
-## Implementación en el Aula con Inteligencia Artificial y ChatGPT
 
-<center>
-<img src="../../images/n06.png" width="500">
-</center>
-
-<br>
-
-La inteligencia artificial (IA), como [ChatGPT](https://chat.openai.com/), está revolucionando la enseñanza de matemáticas y programación, especialmente en la educación secundaria. Sus beneficios incluyen:
-
-1. **Aprendizaje personalizado**: La IA ofrece respuestas adaptadas a cada estudiante, permitiendo un aprendizaje al ritmo del alumno y abordando necesidades específicas.
-2. **Retroalimentación instantánea**: Ayuda a corregir errores en tiempo real, lo que mejora la enseñanza de programación y refuerza la comprensión de conceptos matemáticos.
-3. **Acceso flexible**: Facilita el aprendizaje desde cualquier lugar con conexión a internet, eliminando barreras geográficas y fomentando la inclusión.
-4. **Optimización del tiempo docente**: La IA se encarga de tareas rutinarias, liberando tiempo para que los profesores se centren en temas más complejos y creativos.
-
-**Tips para Mejorar su Uso como Docente**
-
-- **Definir objetivos claros**: Antes de usar ChatGPT en clase, establezca qué conceptos o habilidades desea que los estudiantes desarrollen.
-- **Fomentar la exploración**: Invite a los estudiantes a hacer preguntas diversas y experimentar con la IA para encontrar múltiples soluciones a un problema.
-- **Usar ejemplos prácticos**: Proporcione problemas matemáticos o ejercicios de programación y pida a los estudiantes que consulten a ChatGPT para ver diferentes enfoques de resolución.
-- **Supervisión activa**: Aunque ChatGPT es una herramienta útil, supervise las interacciones para asegurar la comprensión y corregir posibles errores.
-- **Promover el pensamiento crítico**: Anime a los estudiantes a evaluar las respuestas de ChatGPT y reflexionar sobre su precisión y aplicabilidad en cada contexto.
 
 
 ## Conclusiones
 
-Integrar Python en la enseñanza de matemáticas moderniza y enriquece el proceso de aprendizaje. Su sintaxis clara y poderosas bibliotecas permiten explorar conceptos de manera interactiva, facilitando la comprensión.
+La integración de Python en la enseñanza de matemáticas moderniza y enriquece el aprendizaje, facilitando la comprensión de conceptos a través de su sintaxis clara y poderosas bibliotecas.
 
-### Puntos Clave:
+**Puntos Clave**:
 
-1. **Preparación para el futuro**: Python desarrolla habilidades prácticas esenciales para un mundo tecnológico.
-2. **Reducción de desigualdades**: Aún hay desafíos en el acceso global y equidad de género, por lo que es crucial abordar estas brechas.
-3. **Python y  Matemáticas**: Python es una herramienta clave en la enseñanza de matemáticas, especialmente en la educación secundaria.
-4. **IA como apoyo en el aula**: Herramientas como ChatGPT personalizan el aprendizaje y ofrecen retroalimentación inmediata, optimizando el tiempo del docente.
+1. **Preparación para el futuro**: Python desarrolla habilidades prácticas esenciales para un mundo tecnológico y laboral en constante cambio.
+
+2. **Reducción de desigualdades**: Es crucial abordar las brechas en el acceso a la tecnología y en la equidad de género para garantizar una educación matemática inclusiva.
+
+3. **Python y Matemáticas**: Como herramienta clave en la enseñanza secundaria, Python permite presentar temas complejos de manera accesible y atractiva, fomentando un aprendizaje significativo.
+
 
 
 ::: {.callout-tip collapse="false" title="Desafío para Profesores:"}

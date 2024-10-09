@@ -146,6 +146,65 @@ print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcula
 Estos ejemplos permiten a los estudiantes ver cómo la función calcula el IMC para diferentes pesos y alturas, reforzando su comprensión de las operaciones matemáticas y el uso de funciones en Python.
 
 
+## 2️⃣ Verificación de Números Pares e Impares
+
+Un programa para verificar si un número es par o impar. Este ejercicio es útil para practicar operaciones matemáticas y el uso de funciones en Python.
+
+### Contexto
+
+Un número es considerado par si es divisible por 2, y es impar si no lo es. La condición para verificar esto se puede expresar como:
+
+$$ 
+\text{Número es par} \iff \text{Número} \% 2 = 0 
+$$
+
+### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es escribir una función en Python que determine si un número es par o impar y probar la función con ejemplos.
+:::
+
+1. **Definir una función**: Crearemos una función llamada `verificar_paridad` que tome un parámetro: el número (`numero`).
+2. **Implementar la verificación**: Usaremos el operador módulo (`%`) para verificar si el número es par o impar y mostrar el resultado correspondiente.
+3. **Probar la función**: Probaremos la función con varios números y mostraremos los resultados.
+
+### Código para la Verificación de Números Pares e Impares
+```{pyodide-python}
+def verificar_paridad(numero):
+    if numero % 2 == 0:  # Verifica si el número es par
+        print(f"El número {numero} es par.")
+    else:  # Si no es par, entonces es impar
+        print(f"El número {numero} es impar.")
+
+# Ejemplo de uso
+numero = 7
+verificar_paridad(numero)
+```
+
+### Explicación del Código
+
+1. **Parámetro de Entrada**:
+   - `numero`: Un número entero que se desea verificar.
+
+2. **Verificación de Paridad**:
+   - La función utiliza el operador módulo `%` para determinar si el número es divisible por 2. Si es par, se imprime un mensaje indicando que el número es par; de lo contrario, se imprime que es impar.
+
+### Ejemplo de Uso
+
+El código de ejemplo muestra cómo usar la función `verificar_paridad` con el número 7. Al ejecutar este ejemplo, se imprimirá `El número 7 es impar.`.
+
+### Prueba y Modificación
+
+Los estudiantes pueden modificar el valor de `numero` para probar diferentes combinaciones y explorar cómo funciona la función. Por ejemplo:
+
+```{pyodide-python}
+numeros_a_probar = [10, 15, 22, 33, 44]  # Lista de números a verificar
+
+for numero in numeros_a_probar:
+    verificar_paridad(numero)
+```
+
+Estos ejemplos permiten a los estudiantes ver cómo la función verifica la paridad de diferentes números, reforzando su comprensión de las operaciones matemáticas y el uso de funciones en Python.
 
 ## 📅 Verificación de Año Bisiesto
 

@@ -2,7 +2,7 @@
 
 ## Programación
 
-<img src="../../images/algorithm.png" alt="Girl in a jacket" width="200" >
+<img src="../../images/algorithm.png" alt="Girl in a jacket" width="300" >
 
 
 Podríamos definir la esencia de la [programación](https://es.wikipedia.org/wiki/Programaci%C3%B3n) en una frase sencilla:
@@ -20,7 +20,7 @@ La programación es tanto un arte como una ciencia, una práctica mediante la cu
 
 ## Python
 
-<img src="../../images/python.png" alt="Girl in a jacket" width="200" >
+<img src="../../images/python.png" alt="Girl in a jacket" width="300" >
 
 [Python](https://es.wikipedia.org/wiki/Python) se ha consolidado como uno de los lenguajes de programación más populares del mundo, y su crecimiento puede atribuirse a tres factores clave:
 
