@@ -161,20 +161,17 @@ Este ejercicio enseña a los estudiantes a verificar si un número es primo. Un 
 - [Número primo - Wikipedia](https://es.wikipedia.org/wiki/N%C3%BAmero_primo)
 
 ```{pyodide-python}
-def es_primo(numero):
-    if numero < 2:
-        return False
-    for i in range(2, int(numero**0.5) + 1):
-        if numero % i == 0:
-            return False
-    return True
+def es_primo(n):
+    if n <= 1:
+        return f"{n} no es un número primo"
+    for i in range(2, n):
+        if n % i == 0:
+            return f"{n} no es un número primo"
+    return f"{n} es un número primo"
 
 # Ejemplo de uso
 numero = 29
-if es_primo(numero):
-    print(f"El número {numero} es primo.")
-else:
-    print(f"El número {numero} no es primo.")
+print(es_primo(numero))
 ```
 
 
