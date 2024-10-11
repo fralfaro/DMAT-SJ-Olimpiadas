@@ -231,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"code":"print(\"Hola, Mundo\")","options":{"label":"","output":"true","comment":"","fig-height":5,"read-only":"false","results":"markup","fig-cap":"","autorun":"","fig-width":7,"dpi":72,"classes":"","warning":"true","context":"interactive","message":"true","out-width":"700px","out-height":""}},{"id":2,"code":"print(\"Hola, ...\")","options":{"label":"","output":"true","comment":"","fig-height":5,"read-only":"false","results":"markup","fig-cap":"","autorun":"","fig-width":7,"dpi":72,"classes":"","warning":"true","context":"interactive","message":"true","out-width":"700px","out-height":""}}];
+globalThis.qpyodideCellDetails = [{"code":"print(\"Hola, Mundo\")","options":{"context":"interactive","message":"true","results":"markup","dpi":72,"classes":"","out-width":"700px","output":"true","comment":"","warning":"true","out-height":"","label":"","fig-cap":"","fig-height":5,"fig-width":7,"read-only":"false","autorun":""},"id":1},{"code":"print(\"Hola, ...\")","options":{"context":"interactive","message":"true","results":"markup","dpi":72,"classes":"","out-width":"700px","output":"true","comment":"","warning":"true","out-height":"","label":"","fig-cap":"","fig-height":5,"fig-width":7,"read-only":"false","autorun":""},"id":2}];
 
 
 </script>
@@ -629,6 +629,7 @@ globalThis._qpyodideGetInstance = function() {
 <h2 class="anchored" data-anchor-id="uso-de-la-interfaz-web-en-este-taller">Uso de la Interfaz Web en este Taller</h2>
 <p>En este taller, emplearemos una tecnología que emula la ejecución de Python en una página web. No requiere instalaciones y se puede usar desde cualquier dispositivo con internet, aunque es un entorno simulado.</p>
 <p>La interfaz incluye tres botones en la parte superior del contenedor de código: <strong>ejecutar</strong>, <strong>reiniciar</strong> y <strong>copiar</strong> el código. A continuación, se muestra una imagen que ilustra estos botones:</p>
+<p><img src="../../images/botones.png" alt="Botones"></p>
 <section id="ejemplo-hola-mundo" class="level3">
 <h3 class="anchored" data-anchor-id="ejemplo-hola-mundo">Ejemplo: 👋 Hola Mundo</h3>
 <p>En el mundo de la programación, es tradicional comenzar aprendiendo a hacer que la computadora muestre el mensaje “Hola, Mundo” (o “Hello World”).</p>
