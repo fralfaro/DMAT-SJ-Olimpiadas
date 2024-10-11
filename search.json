@@ -14,7 +14,17 @@
     "href": "index.html#cronograma",
     "title": "🔢 DMAT",
     "section": "📅 Cronograma",
-    "text": "📅 Cronograma\n\n\n\n\n\n\n\n\nPropuesta de cronograma - Día 1\n\n\nActividades y horarios del 10 de octubre\n\n\nInicio\nTérmino\nActividad\n\n\n\n\n10:00\n10:45\nInscripción\n\n\n11:00\n12:00\nPrueba 1 (individual)\n\n\n12:00\n12:30\nRecorrido por instalaciones\n\n\n12:30\n14:00\nAlmuerzo\n\n\n14:15\n15:15\nBienvenida y Charla Magistral\n\n\n15:30\n16:30\nTalleres\n\n\n16:45\n17:40\nCoffee break\n\n\n17:30\n18:15\nCeremonia de cierre y premiación\n\n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\nPropuesta de cronograma - Día 2\n\n\nActividades y horarios del 11 de octubre\n\n\nInicio\nTérmino\nActividad\n\n\n\n\n11:00\n12:00\nPrueba 2 (Grupales)\n\n\n12:30\n14:00\nAlmuerzo\n\n\n14:15\n16:30\nExpoMate - charlas interactivas\n\n\n16:45\n17:30\nCoffee break\n\n\n17:30\n18:15\nCeremonia de cierre y premiación\n\n\n\n\n\n\n        \n\n\n\nTaller Estudiantes: Matemáticas Divertidas con Python.\nTaller Profesores: Integración de Python en la Enseñanza de Matemáticas.",
+    "text": "📅 Cronograma\n\n\n\n\n\n\n\n\n\n\nPropuesta de cronograma - Día 1\n\n\nActividades y horarios del 10 de octubre\n\n\nInicio\nTérmino\nActividad\n\n\n\n\n10:00\n10:45\nInscripción\n\n\n11:00\n12:00\nPrueba 1 (individual)\n\n\n12:00\n12:30\nRecorrido por instalaciones\n\n\n12:30\n14:00\nAlmuerzo\n\n\n14:15\n15:15\nBienvenida y Charla Magistral\n\n\n15:30\n16:30\nTalleres\n\n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\n\nPropuesta de cronograma - Día 2\n\n\nActividades y horarios del 11 de octubre\n\n\nInicio\nTérmino\nActividad\n\n\n\n\n11:00\n12:00\nPrueba 2 (Grupales)\n\n\n12:30\n14:00\nAlmuerzo\n\n\n14:15\n16:30\nExpoMate - charlas interactivas\n\n\n16:45\n17:30\nCoffee break\n\n\n17:30\n18:15\nCeremonia de cierre y premiación",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#talleres",
+    "href": "index.html#talleres",
+    "title": "🔢 DMAT",
+    "section": "🚀 Talleres",
+    "text": "🚀 Talleres\nTaller Estudiantes: Matemáticas Divertidas con Python.\nTaller Profesores: Integración de Python en la Enseñanza de Matemáticas.\n\n💡 Consejo: Para optimizar la experiencia en los talleres, se recomienda que cada estudiante o profesor disponga de su propio notebook, o que la actividad se realice en un entorno adecuado, como un laboratorio de computación.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
@@ -24,7 +34,7 @@
     "href": "material/talleres/intro.html",
     "title": "Primeros Pasos",
     "section": "",
-    "text": "Programación\nPodríamos definir la esencia de la programación en una frase sencilla:\nLa programación permite delegar actividades repetitivas y tediosas a las máquinas, liberando a los humanos para que se concentren en desafíos más estimulantes. Estos desafíos suelen requerir creatividad, pensamiento crítico y un enfoque subjetivo.\nMediante la programación, comunicamos a la computadora instrucciones detalladas de las operaciones que deseamos que realice. Si la computadora no actúa como esperábamos, usualmente significa que no hemos especificado nuestras instrucciones con la claridad necesaria.\nLa programación es tanto un arte como una ciencia, una práctica mediante la cual traducimos ideas complejas en comandos que las máquinas puedan seguir eficientemente.",
+    "text": "Programación\nPodríamos definir la esencia de la programación en una frase sencilla:\nLa programación permite delegar actividades repetitivas y tediosas a las máquinas, liberando a los humanos para que se concentren en desafíos más estimulantes. Estos desafíos suelen requerir creatividad, pensamiento crítico y un enfoque subjetivo.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
@@ -46,29 +56,18 @@
     "href": "material/talleres/intro.html#python",
     "title": "Primeros Pasos",
     "section": "Python",
-    "text": "Python\n\nPython se ha consolidado como uno de los lenguajes de programación más populares del mundo, y su crecimiento puede atribuirse a tres factores clave:\n\nClaridad y simplicidad: Los programas escritos en Python suelen ser fáciles de leer y entender, ya que su sintaxis se asemeja mucho al inglés. Esto hace que sea accesible tanto para principiantes como para expertos.\nRico ecosistema de librerías: Python viene equipado con una extensa biblioteca estándar que cubre una amplia variedad de necesidades, desde operaciones matemáticas hasta manejo del sistema operativo, pasando por funciones de tiempo y fecha, entre otras.\nExtensibilidad: Python permite a los usuarios ampliar sus capacidades integrando otros lenguajes de programación. Esto es posible gracias a que se pueden escribir módulos en lenguajes como C o C++, los cuales pueden ser utilizados dentro de programas de Python, potenciando así su eficiencia y flexibilidad.\n\nEsta combinación de facilidad de uso, riqueza funcional y adaptabilidad hace que Python sea una herramienta poderosa para una variedad de aplicaciones en ciencia de datos, desarrollo web, automatización, y más.",
+    "text": "Python\n\nPython se ha convertido en uno de los lenguajes más populares gracias a factores claves como:\n\n\n\n\n\n\n\n\nFactor\nDescripción\nEjemplos\n\n\n\n\nClaridad y simplicidad\nSintaxis fácil de leer y entender.\nif, for, def, class\n\n\nEcosistema de librerías\nAmplia biblioteca estándar para diversas tareas.\nNumPy, Pandas, Requests\n\n\nExtensibilidad\nIntegración con otros lenguajes para mayor rendimiento.\nCython, Pybind11\n\n\nComunidad activa\nSoporte y recursos abundantes.\nGitHub, Stack Overflow, PyPI\n\n\nVersatilidad\nÚtil en ciencia de datos, web, automatización y más.\nDjango, TensorFlow, Selenium\n\n\nPortabilidad\nFunciona en múltiples sistemas operativos.\nWindows, macOS, Linux",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
     ]
   },
   {
-    "objectID": "material/talleres/intro.html#ejecutando-código-python",
-    "href": "material/talleres/intro.html#ejecutando-código-python",
+    "objectID": "material/talleres/intro.html#uso-de-la-interfaz-web-en-este-taller",
+    "href": "material/talleres/intro.html#uso-de-la-interfaz-web-en-este-taller",
     "title": "Primeros Pasos",
-    "section": "Ejecutando código Python",
-    "text": "Ejecutando código Python\nPara trabajar con Python en una computadora, debes seguir estos pasos:\n\nInstalación de Python: Asegúrate de que tu equipo tenga alguna versión de Python instalada.\nCreación de un programa: Escribe tu código en un archivo, como mi_programa.py.\nEjecución del programa: Utiliza Python para ejecutar el archivo mediante el comando python mi_programa.py en la terminal.\n\nCon el aumento de la popularidad de Python, han surgido plataformas alternativas para su uso, como los notebooks (Jupyter Notebooks, Google Colab, entre otros), que ofrecen entornos interactivos y versátiles.\nPara esta ocasión, optamos por una tecnología innovadora que emula la ejecución de Python directamente en una página web. Esta opción no requiere instalaciones y puede usarse desde cualquier dispositivo con conexión a internet, aunque es importante reconocer que sigue siendo un ambiente simulado.\nEl entorno incluye tres botones en la parte superior del contenedor de código que permiten ejecutar el código, reiniciar el código a su estado inicial y copiar el código al portapapeles. A continuación, se muestra una imagen que ilustra estos botones:\n\n\n\nBotones de ejecutar, reiniciar y copiar en un entorno de código Python.",
-    "crumbs": [
-      "🚀 Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
-    ]
-  },
-  {
-    "objectID": "material/talleres/intro.html#ejemplo-hola-mundo",
-    "href": "material/talleres/intro.html#ejemplo-hola-mundo",
-    "title": "Primeros Pasos",
-    "section": "Ejemplo: 👋 Hola Mundo",
-    "text": "Ejemplo: 👋 Hola Mundo\nEn el mundo de la programación, es tradicional comenzar aprendiendo a hacer que la computadora muestre el mensaje “Hola, Mundo” (o “Hello World”).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nIntenta modificar el código anterior para que, en lugar de “Hola, Mundo”, el mensaje incluya tu nombre. ¿Cómo cambiarías el saludo?",
+    "section": "Uso de la Interfaz Web en este Taller",
+    "text": "Uso de la Interfaz Web en este Taller\nEn este taller, emplearemos una tecnología que emula la ejecución de Python en una página web. No requiere instalaciones y se puede usar desde cualquier dispositivo con internet, aunque es un entorno simulado.\nLa interfaz incluye tres botones en la parte superior del contenedor de código: ejecutar, reiniciar y copiar el código. A continuación, se muestra una imagen que ilustra estos botones:\n\nEjemplo: 👋 Hola Mundo\nEn el mundo de la programación, es tradicional comenzar aprendiendo a hacer que la computadora muestre el mensaje “Hola, Mundo” (o “Hello World”).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nIntenta modificar el código anterior para que, en lugar de “Hola, Mundo”, el mensaje incluya tu nombre. ¿Cómo cambiarías el saludo?\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
@@ -288,7 +287,7 @@
     "href": "material/anexos/autoria.html",
     "title": "Autoría",
     "section": "",
-    "text": "Este material ha sido elaborado por Francisco Alfaro y Valeska Canales para apoyar las Olimpiadas de Matemática del Departamento de Matemáticas de la UTFSM, Campus San Joaquín.\nSu propósito es motivar a los estudiantes a aprender Python y disfrutar las matemáticas a través de herramientas y recursos que faciliten la comprensión y el interés en estos temas. Ofrecemos ejemplos prácticos, problemas entretenidos y actividades interactivas para desarrollar habilidades en Python y profundizar en los conceptos matemáticos presentados en las olimpiadas.",
+    "text": "Este material ha sido creado por Francisco Alfaro y Valeska Canales para apoyar las Olimpiadas de Matemática del Departamento de Matemáticas de la UTFSM, Campus San Joaquín.\nSu objetivo es motivar a los estudiantes a aprender Python y disfrutar de las matemáticas mediante herramientas y recursos que faciliten la comprensión y el interés en estos temas. Ofrecemos ejemplos prácticos, problemas entretenidos y actividades interactivas para desarrollar habilidades en Python y profundizar en los conceptos matemáticos presentados en las olimpiadas.\nPara más información, no dudes en contactarnos a través de nuestros correos electrónicos: francisco.alfaro.496@gmail.com, valeska.canales.p@gmail.com.",
     "crumbs": [
       "📜 Anexos",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Autoría</span>"

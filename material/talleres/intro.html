@@ -231,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"code":"print(\"Hola, Mundo\")","options":{"fig-width":7,"fig-height":5,"out-width":"700px","output":"true","message":"true","comment":"","read-only":"false","warning":"true","dpi":72,"label":"","results":"markup","autorun":"","context":"interactive","classes":"","fig-cap":"","out-height":""}}];
+globalThis.qpyodideCellDetails = [{"id":1,"code":"print(\"Hola, Mundo\")","options":{"label":"","output":"true","comment":"","fig-height":5,"read-only":"false","results":"markup","fig-cap":"","autorun":"","fig-width":7,"dpi":72,"classes":"","warning":"true","context":"interactive","message":"true","out-width":"700px","out-height":""}},{"id":2,"code":"print(\"Hola, ...\")","options":{"label":"","output":"true","comment":"","fig-height":5,"read-only":"false","results":"markup","fig-cap":"","autorun":"","fig-width":7,"dpi":72,"classes":"","warning":"true","context":"interactive","message":"true","out-width":"700px","out-height":""}}];
 
 
 </script>
@@ -564,7 +564,7 @@ globalThis._qpyodideGetInstance = function() {
 
 <section id="programación" class="level2">
 <h2 class="anchored" data-anchor-id="programación">Programación</h2>
-<p><img src="../../images/algorithm.png" alt="Girl in a jacket" width="300"></p>
+<p><img src="../../images/programming.png" alt="Girl in a jacket" width="300"></p>
 <p>Podríamos definir la esencia de la <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n">programación</a> en una frase sencilla:</p>
 <blockquote class="blockquote">
 <p>“Automatizar tareas para que sean ejecutadas por la computadora.”</p>
@@ -573,40 +573,64 @@ globalThis._qpyodideGetInstance = function() {
 <blockquote class="blockquote">
 <p>“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” — Donald Knuth</p>
 </blockquote>
-<p>Mediante la programación, comunicamos a la computadora instrucciones detalladas de las operaciones que deseamos que realice. Si la computadora no actúa como esperábamos, usualmente significa que no hemos especificado nuestras instrucciones con la claridad necesaria.</p>
-<p>La programación es tanto un arte como una ciencia, una práctica mediante la cual traducimos ideas complejas en comandos que las máquinas puedan seguir eficientemente.</p>
 </section>
 <section id="python" class="level2">
 <h2 class="anchored" data-anchor-id="python">Python</h2>
 <p><img src="../../images/python.png" alt="Girl in a jacket" width="300"></p>
-<p><a href="https://es.wikipedia.org/wiki/Python">Python</a> se ha consolidado como uno de los lenguajes de programación más populares del mundo, y su crecimiento puede atribuirse a tres factores clave:</p>
-<ol type="1">
-<li><p><strong>Claridad y simplicidad:</strong> Los programas escritos en Python suelen ser fáciles de leer y entender, ya que su sintaxis se asemeja mucho al inglés. Esto hace que sea accesible tanto para principiantes como para expertos.</p></li>
-<li><p><strong>Rico ecosistema de librerías:</strong> Python viene equipado con una extensa biblioteca estándar que cubre una amplia variedad de necesidades, desde operaciones matemáticas hasta manejo del sistema operativo, pasando por funciones de tiempo y fecha, entre otras.</p></li>
-<li><p><strong>Extensibilidad:</strong> Python permite a los usuarios ampliar sus capacidades integrando otros lenguajes de programación. Esto es posible gracias a que se pueden escribir módulos en lenguajes como C o C++, los cuales pueden ser utilizados dentro de programas de Python, potenciando así su eficiencia y flexibilidad.</p></li>
-</ol>
-<p>Esta combinación de facilidad de uso, riqueza funcional y adaptabilidad hace que Python sea una herramienta poderosa para una variedad de aplicaciones en ciencia de datos, desarrollo web, automatización, y más.</p>
+<p><a href="https://es.wikipedia.org/wiki/Python">Python</a> se ha convertido en uno de los lenguajes más populares gracias a factores claves como:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 45%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Factor</strong></th>
+<th><strong>Descripción</strong></th>
+<th><strong>Ejemplos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Claridad y simplicidad</strong></td>
+<td>Sintaxis fácil de leer y entender.</td>
+<td><code>if</code>, <code>for</code>, <code>def</code>, <code>class</code></td>
+</tr>
+<tr class="even">
+<td><strong>Ecosistema de librerías</strong></td>
+<td>Amplia biblioteca estándar para diversas tareas.</td>
+<td><code>NumPy</code>, <code>Pandas</code>, <code>Requests</code></td>
+</tr>
+<tr class="odd">
+<td><strong>Extensibilidad</strong></td>
+<td>Integración con otros lenguajes para mayor rendimiento.</td>
+<td><code>Cython</code>, <code>Pybind11</code></td>
+</tr>
+<tr class="even">
+<td><strong>Comunidad activa</strong></td>
+<td>Soporte y recursos abundantes.</td>
+<td>GitHub, Stack Overflow, PyPI</td>
+</tr>
+<tr class="odd">
+<td><strong>Versatilidad</strong></td>
+<td>Útil en ciencia de datos, web, automatización y más.</td>
+<td><code>Django</code>, <code>TensorFlow</code>, <code>Selenium</code></td>
+</tr>
+<tr class="even">
+<td><strong>Portabilidad</strong></td>
+<td>Funciona en múltiples sistemas operativos.</td>
+<td>Windows, macOS, Linux</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="ejecutando-código-python" class="level2">
-<h2 class="anchored" data-anchor-id="ejecutando-código-python">Ejecutando código Python</h2>
-<p>Para trabajar con Python en una computadora, debes seguir estos pasos:</p>
-<ol type="1">
-<li><strong>Instalación de Python:</strong> Asegúrate de que tu equipo tenga alguna versión de Python instalada.</li>
-<li><strong>Creación de un programa:</strong> Escribe tu código en un archivo, como <code>mi_programa.py</code>.</li>
-<li><strong>Ejecución del programa:</strong> Utiliza Python para ejecutar el archivo mediante el comando <code>python mi_programa.py</code> en la terminal.</li>
-</ol>
-<p>Con el aumento de la popularidad de Python, han surgido plataformas alternativas para su uso, como los notebooks (Jupyter Notebooks, Google Colab, entre otros), que ofrecen entornos interactivos y versátiles.</p>
-<p>Para esta ocasión, optamos por una tecnología innovadora que <em>emula</em> la ejecución de Python directamente en una página web. Esta opción no requiere instalaciones y puede usarse desde cualquier dispositivo con conexión a internet, aunque es importante reconocer que sigue siendo un ambiente simulado.</p>
-<p>El entorno incluye tres botones en la parte superior del contenedor de código que permiten ejecutar el código, reiniciar el código a su estado inicial y copiar el código al portapapeles. A continuación, se muestra una imagen que ilustra estos botones:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../images/botones.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Botones de ejecutar, reiniciar y copiar en un entorno de código Python.</figcaption>
-</figure>
-</div>
-</section>
-<section id="ejemplo-hola-mundo" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplo-hola-mundo">Ejemplo: 👋 Hola Mundo</h2>
+<section id="uso-de-la-interfaz-web-en-este-taller" class="level2">
+<h2 class="anchored" data-anchor-id="uso-de-la-interfaz-web-en-este-taller">Uso de la Interfaz Web en este Taller</h2>
+<p>En este taller, emplearemos una tecnología que emula la ejecución de Python en una página web. No requiere instalaciones y se puede usar desde cualquier dispositivo con internet, aunque es un entorno simulado.</p>
+<p>La interfaz incluye tres botones en la parte superior del contenedor de código: <strong>ejecutar</strong>, <strong>reiniciar</strong> y <strong>copiar</strong> el código. A continuación, se muestra una imagen que ilustra estos botones:</p>
+<section id="ejemplo-hola-mundo" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-hola-mundo">Ejemplo: 👋 Hola Mundo</h3>
 <p>En el mundo de la programación, es tradicional comenzar aprendiendo a hacer que la computadora muestre el mensaje “Hola, Mundo” (o “Hello World”).</p>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
@@ -626,8 +650,11 @@ Desafío:
 </div>
 </div>
 </div>
+<div id="qpyodide-insertion-location-2"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
