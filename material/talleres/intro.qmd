@@ -39,6 +39,9 @@ En este taller, emplearemos una tecnología que emula la ejecución de Python en
 
 La interfaz incluye tres botones en la parte superior del contenedor de código: **ejecutar**, **reiniciar** y **copiar** el código. A continuación, se muestra una imagen que ilustra estos botones:
 
+<img src="../../images/botones.png" alt="Botones"  >
+
+
 ### Ejemplo: 👋 Hola Mundo
 
 En el mundo de la programación, es tradicional comenzar aprendiendo a hacer que la computadora muestre el mensaje "Hola, Mundo" (o "Hello World").
