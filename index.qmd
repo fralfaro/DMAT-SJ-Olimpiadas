@@ -1,7 +1,5 @@
 # 🏠 Home
 
-
-
 Este espacio ha sido creado para motivar a los estudiantes a aprender tanto Python como conceptos matemáticos fundamentales. En este repositorio, encontrarás ejemplos prácticos y autocontenidos que te permitirán entender y practicar los principios básicos de programación en Python, así como explorar aplicaciones matemáticas de manera sencilla y efectiva.
 
 <center>
@@ -13,6 +11,8 @@ Esta iniciativa forma parte del apoyo a las [Olimpiadas de Matemática Federico 
 
 ## 📅 Cronograma
 
+::: {.columns}
+::: {.column width="50%"}
 ```{python}
 #| echo: false
 from great_tables import GT, md
@@ -20,15 +20,14 @@ import pandas as pd
 
 data_dia1 = {
     "Inicio": [
-        "10:00", "11:00", "12:00", "12:30", "14:15", "15:30", "16:45", "17:30"
+        "10:00", "11:00", "12:00", "12:30", "14:15", "15:30", 
     ],
     "Término": [
-        "10:45", "12:00", "12:30", "14:00", "15:15", "16:30", "17:40", "18:15"
+        "10:45", "12:00", "12:30", "14:00", "15:15", "16:30", 
     ],
     "Actividad": [
         "Inscripción", "Prueba 1 (individual)", "Recorrido por instalaciones", "Almuerzo", 
-        "Bienvenida y Charla Magistral", "Talleres", "Coffee break", 
-        "Ceremonia de cierre y premiación"
+        "Bienvenida y Charla Magistral", "Talleres", 
     ]
 }
 
@@ -42,7 +41,9 @@ df_dia1 = pd.DataFrame(data_dia1)
     ).opt_stylize(style=2, color="blue")
 )
 ```
+:::
 
+::: {.column width="50%"}
 ```{python}
 #| echo: false
 from great_tables import GT, md
@@ -70,9 +71,14 @@ df_dia2 = pd.DataFrame(data_dia2)
     ).opt_stylize(style=2, color="red")
 )
 ```
+:::
+:::
 
-<br>
+
+## 🚀 Talleres
 
 **Taller Estudiantes**: [Matemáticas Divertidas con Python](./material/talleres/taller_1.html).
 
 **Taller Profesores**: [Integración de Python en la Enseñanza de Matemáticas](./material/talleres/taller_2.html).
+
+> 💡 **Consejo**: Para optimizar la experiencia en los talleres, se recomienda que cada estudiante o profesor disponga de su propio notebook, o que la actividad se realice en un entorno adecuado, como un laboratorio de computación.

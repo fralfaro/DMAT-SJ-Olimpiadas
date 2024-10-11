@@ -1,6 +1,7 @@
 # Autoría
 
-Este material ha sido elaborado por [Francisco Alfaro](https://www.linkedin.com/in/faam/) y [Valeska Canales](https://www.linkedin.com/in/vcanalesp/) para apoyar las Olimpiadas de Matemática del [Departamento de Matemáticas](https://matematica.usm.cl/departamento/) de la UTFSM, Campus San Joaquín. 
+Este material ha sido creado por [Francisco Alfaro](https://www.linkedin.com/in/faam/) y [Valeska Canales](https://www.linkedin.com/in/vcanalesp/) para apoyar las Olimpiadas de Matemática del [Departamento de Matemáticas](https://matematica.usm.cl/departamento/) de la UTFSM, Campus San Joaquín.
 
-Su propósito es motivar a los estudiantes a aprender Python y disfrutar las matemáticas a través de herramientas y recursos que faciliten la comprensión y el interés en estos temas. Ofrecemos ejemplos prácticos, problemas entretenidos y actividades interactivas para desarrollar habilidades en Python y profundizar en los conceptos matemáticos presentados en las olimpiadas.
+Su objetivo es motivar a los estudiantes a aprender Python y disfrutar de las matemáticas mediante herramientas y recursos que faciliten la comprensión y el interés en estos temas. Ofrecemos ejemplos prácticos, problemas entretenidos y actividades interactivas para desarrollar habilidades en Python y profundizar en los conceptos matemáticos presentados en las olimpiadas.
 
+Para más información, no dudes en contactarnos a través de nuestros correos electrónicos:  `francisco.alfaro.496@gmail.com`, `valeska.canales.p@gmail.com`.
